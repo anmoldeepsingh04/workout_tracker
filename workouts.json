@@ -1,0 +1,6853 @@
+{
+ "format": "workout-tracker-backup",
+ "version": 1,
+ "exercises": [
+  {
+   "name": "Barbell Squat",
+   "muscle_group": "Legs",
+   "equipment": "Barbell",
+   "kind": "compound",
+   "unit": "reps"
+  },
+  {
+   "name": "Bulgarian Split Squat",
+   "muscle_group": "Legs",
+   "equipment": "Dumbbell",
+   "kind": "compound",
+   "unit": "reps"
+  },
+  {
+   "name": "Cable Fly (Lower Chest)",
+   "muscle_group": "Chest",
+   "equipment": "Cable",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Cable Fly (Mid Chest)",
+   "muscle_group": "Chest",
+   "equipment": "Cable",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Cable Lateral Raise",
+   "muscle_group": "Shoulders",
+   "equipment": "Cable",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Calf Raise",
+   "muscle_group": "Legs",
+   "equipment": "Machine",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Chest-supported T-bar Row",
+   "muscle_group": "Back",
+   "equipment": "Machine",
+   "kind": "compound",
+   "unit": "reps"
+  },
+  {
+   "name": "Dead Bug",
+   "muscle_group": "Core",
+   "equipment": "Bodyweight",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Dumbbell Curl",
+   "muscle_group": "Biceps",
+   "equipment": "Dumbbell",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Dumbbell Squat",
+   "muscle_group": "Legs",
+   "equipment": "Dumbbell",
+   "kind": "compound",
+   "unit": "reps"
+  },
+  {
+   "name": "Farmer Walk",
+   "muscle_group": "Full body",
+   "equipment": "Dumbbell",
+   "kind": "compound",
+   "unit": "seconds"
+  },
+  {
+   "name": "Flat Dumbbell Press",
+   "muscle_group": "Chest",
+   "equipment": "Dumbbell",
+   "kind": "compound",
+   "unit": "reps"
+  },
+  {
+   "name": "Floor Crunch",
+   "muscle_group": "Core",
+   "equipment": "Bodyweight",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Hack Squat",
+   "muscle_group": "Legs",
+   "equipment": "Machine",
+   "kind": "compound",
+   "unit": "reps"
+  },
+  {
+   "name": "Hammer Curl",
+   "muscle_group": "Biceps",
+   "equipment": "Dumbbell",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Hanging Leg Raise",
+   "muscle_group": "Core",
+   "equipment": "Bodyweight",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "High-to-Low Cable Fly",
+   "muscle_group": "Chest",
+   "equipment": "Cable",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Hip Thrust",
+   "muscle_group": "Legs",
+   "equipment": "Barbell",
+   "kind": "compound",
+   "unit": "reps"
+  },
+  {
+   "name": "Incline Chest Press",
+   "muscle_group": "Chest",
+   "equipment": "Dumbbell",
+   "kind": "compound",
+   "unit": "reps"
+  },
+  {
+   "name": "Incline Dumbbell Curl",
+   "muscle_group": "Biceps",
+   "equipment": "Dumbbell",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Incline Dumbbell Press",
+   "muscle_group": "Chest",
+   "equipment": "Dumbbell",
+   "kind": "compound",
+   "unit": "reps"
+  },
+  {
+   "name": "Lat Pulldown",
+   "muscle_group": "Back",
+   "equipment": "Machine",
+   "kind": "compound",
+   "unit": "reps"
+  },
+  {
+   "name": "Leg Curl",
+   "muscle_group": "Legs",
+   "equipment": "Machine",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Leg Extension",
+   "muscle_group": "Legs",
+   "equipment": "Machine",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Leg Press",
+   "muscle_group": "Legs",
+   "equipment": "Machine",
+   "kind": "compound",
+   "unit": "reps"
+  },
+  {
+   "name": "Low-to-High Cable Fly",
+   "muscle_group": "Chest",
+   "equipment": "Cable",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Machine Chest Press",
+   "muscle_group": "Chest",
+   "equipment": "Machine",
+   "kind": "compound",
+   "unit": "reps"
+  },
+  {
+   "name": "Overhead Cable Triceps Extension",
+   "muscle_group": "Triceps",
+   "equipment": "Cable",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Plank",
+   "muscle_group": "Core",
+   "equipment": "Bodyweight",
+   "kind": "isolation",
+   "unit": "seconds"
+  },
+  {
+   "name": "Preacher Curl",
+   "muscle_group": "Biceps",
+   "equipment": "Dumbbell",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Rear Delt Fly",
+   "muscle_group": "Shoulders",
+   "equipment": "Machine",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Reverse Pec Deck",
+   "muscle_group": "Shoulders",
+   "equipment": "Machine",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Romanian Deadlift",
+   "muscle_group": "Legs",
+   "equipment": "Dumbbell",
+   "kind": "compound",
+   "unit": "reps"
+  },
+  {
+   "name": "Seated Cable Row",
+   "muscle_group": "Back",
+   "equipment": "Cable",
+   "kind": "compound",
+   "unit": "reps"
+  },
+  {
+   "name": "Shoulder Press",
+   "muscle_group": "Shoulders",
+   "equipment": "Dumbbell",
+   "kind": "compound",
+   "unit": "reps"
+  },
+  {
+   "name": "Side Heel Touch",
+   "muscle_group": "Core",
+   "equipment": "Bodyweight",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Single-arm Cable Lat Pulldown",
+   "muscle_group": "Back",
+   "equipment": "Cable",
+   "kind": "compound",
+   "unit": "reps"
+  },
+  {
+   "name": "Single-arm Preacher Curl",
+   "muscle_group": "Biceps",
+   "equipment": "Dumbbell",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Straight-arm Cable Pullover",
+   "muscle_group": "Back",
+   "equipment": "Cable",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Suitcase Carry",
+   "muscle_group": "Core",
+   "equipment": "Dumbbell",
+   "kind": "compound",
+   "unit": "seconds"
+  },
+  {
+   "name": "Superman",
+   "muscle_group": "Core",
+   "equipment": "Bodyweight",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Supported Dumbbell Curl",
+   "muscle_group": "Biceps",
+   "equipment": "Dumbbell",
+   "kind": "isolation",
+   "unit": "reps"
+  },
+  {
+   "name": "Triceps Pushdown",
+   "muscle_group": "Triceps",
+   "equipment": "Cable",
+   "kind": "isolation",
+   "unit": "reps"
+  }
+ ],
+ "routines": [
+  {
+   "name": "Push",
+   "position": 1,
+   "focus": "Chest priority",
+   "kind": "split",
+   "items": [
+    {
+     "exercise": "Incline Dumbbell Press",
+     "sets": 3,
+     "target": "8-12",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Machine Chest Press",
+     "sets": 3,
+     "target": "8-12",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Shoulder Press",
+     "sets": 3,
+     "target": "8-12",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "sets": 3,
+     "target": "12-15",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "sets": 3,
+     "target": "12-20",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "sets": 3,
+     "target": "10-15",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "sets": 3,
+     "target": "10-15",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Farmer Walk",
+     "sets": 5,
+     "target": "~45 s",
+     "note": "20 kg each hand, ~60 s rest. Suitcase carry on 1-2 days/week (optional)",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Floor Crunch",
+     "sets": 1,
+     "target": "20",
+     "note": "Slow: 3 s up, 3 s down. Hold a plate when easy",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Superman",
+     "sets": 1,
+     "target": "12-15",
+     "note": "Face down, hold 1-2 s at the top",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Side Heel Touch",
+     "sets": 1,
+     "target": "20",
+     "note": "Or a 30-45 s plank / dead bugs on 2-3 days a week",
+     "section": "finisher"
+    }
+   ]
+  },
+  {
+   "name": "Pull",
+   "position": 2,
+   "focus": "Lats priority",
+   "kind": "split",
+   "items": [
+    {
+     "exercise": "Lat Pulldown",
+     "sets": 3,
+     "target": "8-12",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "sets": 3,
+     "target": "8-12",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "sets": 3,
+     "target": "10-12",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "sets": 2,
+     "target": "12-15",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "sets": 3,
+     "target": "12-15",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "sets": 3,
+     "target": "8-12",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Hammer Curl",
+     "sets": 3,
+     "target": "10-12",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Farmer Walk",
+     "sets": 5,
+     "target": "~45 s",
+     "note": "20 kg each hand, ~60 s rest. Suitcase carry on 1-2 days/week (optional)",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Floor Crunch",
+     "sets": 1,
+     "target": "20",
+     "note": "Slow: 3 s up, 3 s down. Hold a plate when easy",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Superman",
+     "sets": 1,
+     "target": "12-15",
+     "note": "Face down, hold 1-2 s at the top",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Side Heel Touch",
+     "sets": 1,
+     "target": "20",
+     "note": "Or a 30-45 s plank / dead bugs on 2-3 days a week",
+     "section": "finisher"
+    }
+   ]
+  },
+  {
+   "name": "Legs",
+   "position": 3,
+   "focus": "Quad focus",
+   "kind": "split",
+   "items": [
+    {
+     "exercise": "Barbell Squat",
+     "sets": 3,
+     "target": "6-10",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Leg Press",
+     "sets": 3,
+     "target": "10-12",
+     "note": "One foot position, straight sets",
+     "section": "main"
+    },
+    {
+     "exercise": "Leg Extension",
+     "sets": 3,
+     "target": "12-15",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Leg Curl",
+     "sets": 3,
+     "target": "10-12",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Calf Raise",
+     "sets": 4,
+     "target": "10-15",
+     "note": "Standing",
+     "section": "main"
+    },
+    {
+     "exercise": "Farmer Walk",
+     "sets": 5,
+     "target": "~45 s",
+     "note": "20 kg each hand, ~60 s rest. Suitcase carry on 1-2 days/week (optional)",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Floor Crunch",
+     "sets": 1,
+     "target": "20",
+     "note": "Slow: 3 s up, 3 s down. Hold a plate when easy",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Superman",
+     "sets": 1,
+     "target": "12-15",
+     "note": "Face down, hold 1-2 s at the top",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Side Heel Touch",
+     "sets": 1,
+     "target": "20",
+     "note": "Or a 30-45 s plank / dead bugs on 2-3 days a week",
+     "section": "finisher"
+    }
+   ]
+  },
+  {
+   "name": "Upper Body",
+   "position": 4,
+   "focus": "Chest + back",
+   "kind": "split",
+   "items": [
+    {
+     "exercise": "Flat Dumbbell Press",
+     "sets": 3,
+     "target": "8-12",
+     "note": "Start around 15-17.5 kg per dumbbell",
+     "section": "main"
+    },
+    {
+     "exercise": "Seated Cable Row",
+     "sets": 3,
+     "target": "8-12",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "sets": 3,
+     "target": "10-12",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "High-to-Low Cable Fly",
+     "sets": 3,
+     "target": "12-15",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "sets": 3,
+     "target": "12-20",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "sets": 2,
+     "target": "12-15",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Farmer Walk",
+     "sets": 5,
+     "target": "~45 s",
+     "note": "20 kg each hand, ~60 s rest. Suitcase carry on 1-2 days/week (optional)",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Floor Crunch",
+     "sets": 1,
+     "target": "20",
+     "note": "Slow: 3 s up, 3 s down. Hold a plate when easy",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Superman",
+     "sets": 1,
+     "target": "12-15",
+     "note": "Face down, hold 1-2 s at the top",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Side Heel Touch",
+     "sets": 1,
+     "target": "20",
+     "note": "Or a 30-45 s plank / dead bugs on 2-3 days a week",
+     "section": "finisher"
+    }
+   ]
+  },
+  {
+   "name": "Shoulders + Arms",
+   "position": 5,
+   "focus": "Delts, biceps, triceps",
+   "kind": "split",
+   "items": [
+    {
+     "exercise": "Shoulder Press",
+     "sets": 3,
+     "target": "8-12",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "sets": 4,
+     "target": "12-20",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Rear Delt Fly",
+     "sets": 3,
+     "target": "12-15",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "sets": 3,
+     "target": "10-15",
+     "note": "Can alternate with biceps sets, 60 s rest per pair",
+     "section": "main"
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "sets": 3,
+     "target": "10-15",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Single-arm Preacher Curl",
+     "sets": 3,
+     "target": "10-12",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "sets": 3,
+     "target": "8-12",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Farmer Walk",
+     "sets": 5,
+     "target": "~45 s",
+     "note": "20 kg each hand, ~60 s rest. Suitcase carry on 1-2 days/week (optional)",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Floor Crunch",
+     "sets": 1,
+     "target": "20",
+     "note": "Slow: 3 s up, 3 s down. Hold a plate when easy",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Superman",
+     "sets": 1,
+     "target": "12-15",
+     "note": "Face down, hold 1-2 s at the top",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Side Heel Touch",
+     "sets": 1,
+     "target": "20",
+     "note": "Or a 30-45 s plank / dead bugs on 2-3 days a week",
+     "section": "finisher"
+    }
+   ]
+  },
+  {
+   "name": "Legs + Core",
+   "position": 6,
+   "focus": "Hamstrings / glutes focus",
+   "kind": "split",
+   "items": [
+    {
+     "exercise": "Romanian Deadlift",
+     "sets": 3,
+     "target": "8-10",
+     "note": "Start light, focus on the hip hinge",
+     "section": "main"
+    },
+    {
+     "exercise": "Hack Squat",
+     "sets": 3,
+     "target": "8-12",
+     "note": "Or Bulgarian split squat",
+     "section": "main"
+    },
+    {
+     "exercise": "Hip Thrust",
+     "sets": 3,
+     "target": "8-12",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Leg Curl",
+     "sets": 3,
+     "target": "10-12",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Calf Raise",
+     "sets": 4,
+     "target": "10-15",
+     "note": "Standing",
+     "section": "main"
+    },
+    {
+     "exercise": "Hanging Leg Raise",
+     "sets": 3,
+     "target": "max",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Farmer Walk",
+     "sets": 5,
+     "target": "~45 s",
+     "note": "20 kg each hand, ~60 s rest. Suitcase carry on 1-2 days/week (optional)",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Floor Crunch",
+     "sets": 1,
+     "target": "20",
+     "note": "Slow: 3 s up, 3 s down. Hold a plate when easy",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Superman",
+     "sets": 1,
+     "target": "12-15",
+     "note": "Face down, hold 1-2 s at the top",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Side Heel Touch",
+     "sets": 1,
+     "target": "20",
+     "note": "Or a 30-45 s plank / dead bugs on 2-3 days a week",
+     "section": "finisher"
+    }
+   ]
+  },
+  {
+   "name": "Full Body",
+   "position": 7,
+   "focus": "Catch-up after missing 2+ days",
+   "kind": "backup",
+   "items": [
+    {
+     "exercise": "Barbell Squat",
+     "sets": 3,
+     "target": "6-10",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Romanian Deadlift",
+     "sets": 2,
+     "target": "8-10",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Incline Dumbbell Press",
+     "sets": 3,
+     "target": "8-12",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "sets": 3,
+     "target": "8-12",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Seated Cable Row",
+     "sets": 2,
+     "target": "10-12",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "sets": 2,
+     "target": "12-20",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "sets": 2,
+     "target": "10-12",
+     "note": "Alternate with triceps pushdown",
+     "section": "main"
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "sets": 2,
+     "target": "10-15",
+     "note": null,
+     "section": "main"
+    },
+    {
+     "exercise": "Farmer Walk",
+     "sets": 5,
+     "target": "~45 s",
+     "note": "20 kg each hand, ~60 s rest. Suitcase carry on 1-2 days/week (optional)",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Floor Crunch",
+     "sets": 1,
+     "target": "20",
+     "note": "Slow: 3 s up, 3 s down. Hold a plate when easy",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Superman",
+     "sets": 1,
+     "target": "12-15",
+     "note": "Face down, hold 1-2 s at the top",
+     "section": "finisher"
+    },
+    {
+     "exercise": "Side Heel Touch",
+     "sets": 1,
+     "target": "20",
+     "note": "Or a 30-45 s plank / dead bugs on 2-3 days a week",
+     "section": "finisher"
+    }
+   ]
+  }
+ ],
+ "workouts": [
+  {
+   "date": "2026-09-23",
+   "routine": "Pull",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 1,
+     "weight": 13.75,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 2,
+     "weight": 16.75,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 3,
+     "weight": 21.25,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 3,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 1,
+     "weight": 33.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 2,
+     "weight": 47.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 3,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 1,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 2,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 3,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 1,
+     "weight": 33.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 2,
+     "weight": 26.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 3,
+     "weight": 19.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Dumbbell Curl",
+     "position": 5,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Incline Dumbbell Curl",
+     "position": 5,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 6,
+     "note": "Drop set - first part"
+    },
+    {
+     "exercise": "Incline Dumbbell Curl",
+     "position": 5,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 3,
+     "note": "Drop set - after drop"
+    },
+    {
+     "exercise": "Incline Dumbbell Curl",
+     "position": 5,
+     "set_number": 4,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Supported Dumbbell Curl",
+     "position": 6,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Supported Dumbbell Curl",
+     "position": 6,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Supported Dumbbell Curl",
+     "position": 6,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 16,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 20,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 20,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "routine": "Legs",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Dumbbell Squat",
+     "position": 0,
+     "set_number": 1,
+     "weight": 20.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Squat",
+     "position": 0,
+     "set_number": 2,
+     "weight": 22.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Squat",
+     "position": 0,
+     "set_number": 3,
+     "weight": 25.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Romanian Deadlift",
+     "position": 1,
+     "set_number": 1,
+     "weight": 30.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Romanian Deadlift",
+     "position": 1,
+     "set_number": 2,
+     "weight": 30.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Romanian Deadlift",
+     "position": 1,
+     "set_number": 3,
+     "weight": 35.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 2,
+     "set_number": 1,
+     "weight": 65.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 2,
+     "set_number": 2,
+     "weight": 75.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 2,
+     "set_number": 3,
+     "weight": 85.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 3,
+     "set_number": 1,
+     "weight": 39.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 3,
+     "set_number": 2,
+     "weight": 46.0,
+     "reps": 8,
+     "note": "Drop set - first part"
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 3,
+     "set_number": 3,
+     "weight": 39.0,
+     "reps": 4,
+     "note": "Drop set - after drop"
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 3,
+     "set_number": 4,
+     "weight": 39.0,
+     "reps": 8,
+     "note": "Drop set - first part"
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 3,
+     "set_number": 5,
+     "weight": 32.0,
+     "reps": 4,
+     "note": "Drop set - after drop"
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 4,
+     "set_number": 1,
+     "weight": 45.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 4,
+     "set_number": 2,
+     "weight": 45.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 4,
+     "set_number": 3,
+     "weight": 55.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 5,
+     "set_number": 1,
+     "weight": 45.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 5,
+     "set_number": 2,
+     "weight": 45.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 5,
+     "set_number": 3,
+     "weight": 50.0,
+     "reps": 10,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-09-25",
+   "routine": "Upper Body",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Incline Chest Press",
+     "position": 0,
+     "set_number": 1,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Chest Press",
+     "position": 0,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Chest Press",
+     "position": 0,
+     "set_number": 3,
+     "weight": 14.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 1,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 1,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 1,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 1,
+     "set_number": 4,
+     "weight": 7.5,
+     "reps": 10,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 1,
+     "set_number": 5,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 1,
+     "set_number": 6,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 2,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 2,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 2,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 3,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 3,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 3,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 4,
+     "set_number": 1,
+     "weight": 20.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 4,
+     "set_number": 2,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 4,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 5,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 5,
+     "set_number": 2,
+     "weight": 17.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 5,
+     "set_number": 3,
+     "weight": 21.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Seated Cable Row",
+     "position": 6,
+     "set_number": 1,
+     "weight": 33.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Seated Cable Row",
+     "position": 6,
+     "set_number": 2,
+     "weight": 40.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Seated Cable Row",
+     "position": 6,
+     "set_number": 3,
+     "weight": 47.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 7,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 7,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 7,
+     "set_number": 3,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 8,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 8,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 8,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 9,
+     "set_number": 1,
+     "weight": 19.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 9,
+     "set_number": 2,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 9,
+     "set_number": 3,
+     "weight": 19.0,
+     "reps": 10,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-09-26",
+   "routine": "Shoulders + Arms",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 0,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 0,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 0,
+     "set_number": 3,
+     "weight": 2.5,
+     "reps": 24,
+     "note": null
+    },
+    {
+     "exercise": "Rear Delt Fly",
+     "position": 1,
+     "set_number": 1,
+     "weight": 19.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Rear Delt Fly",
+     "position": 1,
+     "set_number": 2,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Rear Delt Fly",
+     "position": 1,
+     "set_number": 3,
+     "weight": 19.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 2,
+     "set_number": 1,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 2,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 2,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 3,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 3,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 3,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 4,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 4,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 4,
+     "set_number": 3,
+     "weight": 12.5,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 5,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 5,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 5,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 4,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 5,
+     "set_number": 4,
+     "weight": 7.5,
+     "reps": 4,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Preacher Curl",
+     "position": 6,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Preacher Curl",
+     "position": 6,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Preacher Curl",
+     "position": 6,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "routine": "Push",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Machine Chest Press",
+     "position": 1,
+     "set_number": 1,
+     "weight": 35.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Machine Chest Press",
+     "position": 1,
+     "set_number": 2,
+     "weight": 35.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Machine Chest Press",
+     "position": 1,
+     "set_number": 3,
+     "weight": 35.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 2,
+     "set_number": 1,
+     "weight": 3.75,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 2,
+     "set_number": 2,
+     "weight": 3.75,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 2,
+     "set_number": 3,
+     "weight": 3.75,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 3,
+     "set_number": 1,
+     "weight": 6.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 3,
+     "set_number": 2,
+     "weight": 6.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 3,
+     "set_number": 3,
+     "weight": 6.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 4,
+     "set_number": 1,
+     "weight": 6.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 4,
+     "set_number": 2,
+     "weight": 6.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 4,
+     "set_number": 3,
+     "weight": 6.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 5,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 5,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 5,
+     "set_number": 3,
+     "weight": 2.5,
+     "reps": 24,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 6,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 6,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 6,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 7,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 7,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 7,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 8,
+     "set_number": 1,
+     "weight": 12.5,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 8,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 8,
+     "set_number": 3,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "routine": "Pull",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 1,
+     "weight": 16.25,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 2,
+     "weight": 16.25,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 3,
+     "weight": 21.25,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 3,
+     "weight": 20.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 1,
+     "weight": 10.66,
+     "reps": 12,
+     "note": "Logged as 23.5 lb, converted to kg"
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 2,
+     "weight": 33.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 3,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 1,
+     "weight": 16.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 2,
+     "weight": 13.75,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 3,
+     "weight": 11.25,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 1,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 2,
+     "weight": 19.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 3,
+     "weight": 19.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Dumbbell Curl",
+     "position": 5,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Dumbbell Curl",
+     "position": 5,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Dumbbell Curl",
+     "position": 5,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Preacher Curl",
+     "position": 6,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Preacher Curl",
+     "position": 6,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Preacher Curl",
+     "position": 6,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 7,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 7,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 7,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 8,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 8,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 8,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "routine": "Push",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 3,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Machine Chest Press",
+     "position": 1,
+     "set_number": 1,
+     "weight": 25.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Machine Chest Press",
+     "position": 1,
+     "set_number": 2,
+     "weight": 25.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Machine Chest Press",
+     "position": 1,
+     "set_number": 3,
+     "weight": 35.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 2,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 2,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 2,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 3,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 3,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 3,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 4,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 4,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 4,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 5,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 5,
+     "set_number": 2,
+     "weight": 2.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 5,
+     "set_number": 3,
+     "weight": 2.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 6,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 6,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 6,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 7,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 7,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 7,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 8,
+     "set_number": 1,
+     "weight": 12.5,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 8,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 8,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "routine": "Pull",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 2,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 3,
+     "weight": 21.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 1,
+     "weight": 33.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 2,
+     "weight": 33.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 3,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 3,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 1,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 2,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 3,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Preacher Curl",
+     "position": 5,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Preacher Curl",
+     "position": 5,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Preacher Curl",
+     "position": 5,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "routine": "Legs",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Dumbbell Squat",
+     "position": 0,
+     "set_number": 1,
+     "weight": 20.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Squat",
+     "position": 0,
+     "set_number": 2,
+     "weight": 20.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Squat",
+     "position": 0,
+     "set_number": 3,
+     "weight": 22.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Romanian Deadlift",
+     "position": 1,
+     "set_number": 1,
+     "weight": 20.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Romanian Deadlift",
+     "position": 1,
+     "set_number": 2,
+     "weight": 20.0,
+     "reps": 6,
+     "note": null
+    },
+    {
+     "exercise": "Romanian Deadlift",
+     "position": 1,
+     "set_number": 3,
+     "weight": 20.0,
+     "reps": 6,
+     "note": null
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 2,
+     "set_number": 1,
+     "weight": 55.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 2,
+     "set_number": 2,
+     "weight": 65.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 2,
+     "set_number": 3,
+     "weight": 65.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 3,
+     "set_number": 1,
+     "weight": 39.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 3,
+     "set_number": 2,
+     "weight": 46.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 3,
+     "set_number": 3,
+     "weight": 39.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 4,
+     "set_number": 1,
+     "weight": 35.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 4,
+     "set_number": 2,
+     "weight": 45.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 4,
+     "set_number": 3,
+     "weight": 45.0,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "routine": "Push",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 3,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Machine Chest Press",
+     "position": 1,
+     "set_number": 1,
+     "weight": 25.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Machine Chest Press",
+     "position": 1,
+     "set_number": 2,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Machine Chest Press",
+     "position": 1,
+     "set_number": 3,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 2,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": "Low-to-high; Unusual weight - likely a different machine"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 2,
+     "set_number": 2,
+     "weight": 25.0,
+     "reps": 12,
+     "note": "Low-to-high; Unusual weight - likely a different machine"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 2,
+     "set_number": 3,
+     "weight": 15.0,
+     "reps": 12,
+     "note": "Low-to-high; Unusual weight - likely a different machine"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 3,
+     "set_number": 1,
+     "weight": 25.0,
+     "reps": 12,
+     "note": "Low-to-high; Unusual weight - likely a different machine"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 3,
+     "set_number": 2,
+     "weight": 35.0,
+     "reps": 12,
+     "note": "Low-to-high; Unusual weight - likely a different machine"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 3,
+     "set_number": 3,
+     "weight": 25.0,
+     "reps": 12,
+     "note": "Low-to-high; Unusual weight - likely a different machine"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 4,
+     "set_number": 1,
+     "weight": 25.0,
+     "reps": 12,
+     "note": "Low-to-high; Unusual weight - likely a different machine"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 4,
+     "set_number": 2,
+     "weight": 25.0,
+     "reps": 12,
+     "note": "Low-to-high; Unusual weight - likely a different machine"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 4,
+     "set_number": 3,
+     "weight": 25.0,
+     "reps": 12,
+     "note": "Low-to-high; Unusual weight - likely a different machine"
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 5,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 5,
+     "set_number": 2,
+     "weight": 2.5,
+     "reps": 24,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 5,
+     "set_number": 3,
+     "weight": 2.5,
+     "reps": 16,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 6,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 6,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 6,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 7,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 7,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 7,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 8,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 8,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 8,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "routine": "Pull",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 2,
+     "weight": 17.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 3,
+     "weight": 21.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 2,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 1,
+     "weight": 33.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 2,
+     "weight": 33.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 3,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 3,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 1,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 2,
+     "weight": 19.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 3,
+     "weight": 19.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Preacher Curl",
+     "position": 5,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Preacher Curl",
+     "position": 5,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "routine": "Legs",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Dumbbell Squat",
+     "position": 0,
+     "set_number": 1,
+     "weight": 25.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Squat",
+     "position": 0,
+     "set_number": 2,
+     "weight": 25.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Squat",
+     "position": 0,
+     "set_number": 3,
+     "weight": 20.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Romanian Deadlift",
+     "position": 1,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Romanian Deadlift",
+     "position": 1,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Romanian Deadlift",
+     "position": 1,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 2,
+     "set_number": 1,
+     "weight": 65.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 2,
+     "set_number": 2,
+     "weight": 65.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 2,
+     "set_number": 3,
+     "weight": 65.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 3,
+     "set_number": 1,
+     "weight": 39.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 3,
+     "set_number": 2,
+     "weight": 39.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 3,
+     "set_number": 3,
+     "weight": 32.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 4,
+     "set_number": 1,
+     "weight": 45.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 4,
+     "set_number": 2,
+     "weight": 45.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 4,
+     "set_number": 3,
+     "weight": 45.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 5,
+     "set_number": 1,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 5,
+     "set_number": 2,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 5,
+     "set_number": 3,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "routine": "Push",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Machine Chest Press",
+     "position": 1,
+     "set_number": 1,
+     "weight": 25.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Machine Chest Press",
+     "position": 1,
+     "set_number": 2,
+     "weight": 25.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Machine Chest Press",
+     "position": 1,
+     "set_number": 3,
+     "weight": 25.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 2,
+     "set_number": 1,
+     "weight": 6.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 2,
+     "set_number": 2,
+     "weight": 3.75,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 2,
+     "set_number": 3,
+     "weight": 3.75,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 3,
+     "set_number": 1,
+     "weight": 8.75,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 3,
+     "set_number": 2,
+     "weight": 8.75,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 3,
+     "set_number": 3,
+     "weight": 6.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 4,
+     "set_number": 1,
+     "weight": 8.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 4,
+     "set_number": 2,
+     "weight": 6.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 4,
+     "set_number": 3,
+     "weight": 6.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 5,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 5,
+     "set_number": 2,
+     "weight": 2.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 5,
+     "set_number": 3,
+     "weight": 2.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 6,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 6,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 6,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 7,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 7,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 7,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 8,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 8,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 8,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "routine": "Pull",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 1,
+     "weight": 17.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 2,
+     "weight": 17.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 3,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 1,
+     "weight": 20.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 2,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 1,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 2,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 3,
+     "weight": 33.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 3,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 1,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 2,
+     "weight": 19.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 3,
+     "weight": 19.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Preacher Curl",
+     "position": 5,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Preacher Curl",
+     "position": 5,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 8,
+     "note": "Incline (logged 'I')"
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 8,
+     "note": "Normal (logged 'N')"
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "Incline (logged 'I')"
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 4,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "Normal (logged 'N')"
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "routine": "Legs",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Dumbbell Squat",
+     "position": 0,
+     "set_number": 1,
+     "weight": 27.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Squat",
+     "position": 0,
+     "set_number": 2,
+     "weight": 27.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Squat",
+     "position": 0,
+     "set_number": 3,
+     "weight": 25.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 1,
+     "weight": 75.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 2,
+     "weight": 75.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 3,
+     "weight": 65.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 2,
+     "set_number": 1,
+     "weight": 46.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 2,
+     "set_number": 2,
+     "weight": 32.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 2,
+     "set_number": 3,
+     "weight": 32.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 3,
+     "set_number": 1,
+     "weight": 45.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 3,
+     "set_number": 2,
+     "weight": 45.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 3,
+     "set_number": 3,
+     "weight": 45.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 4,
+     "set_number": 1,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 4,
+     "set_number": 2,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 4,
+     "set_number": 3,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "routine": "Upper Body",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Incline Chest Press",
+     "position": 0,
+     "set_number": 1,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Chest Press",
+     "position": 0,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Chest Press",
+     "position": 0,
+     "set_number": 3,
+     "weight": 14.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 1,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 1,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 1,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 2,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 2,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 2,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 3,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 3,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 3,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 4,
+     "set_number": 1,
+     "weight": 20.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 4,
+     "set_number": 2,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 4,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 5,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 5,
+     "set_number": 2,
+     "weight": 17.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 5,
+     "set_number": 3,
+     "weight": 21.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Seated Cable Row",
+     "position": 6,
+     "set_number": 1,
+     "weight": 33.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Seated Cable Row",
+     "position": 6,
+     "set_number": 2,
+     "weight": 40.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Seated Cable Row",
+     "position": 6,
+     "set_number": 3,
+     "weight": 47.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 7,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 7,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 7,
+     "set_number": 3,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 8,
+     "set_number": 1,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 8,
+     "set_number": 2,
+     "weight": 19.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 8,
+     "set_number": 3,
+     "weight": 19.0,
+     "reps": 10,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "routine": "Shoulders + Arms",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Shoulder Press",
+     "position": 0,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 0,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 0,
+     "set_number": 3,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 1,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 1,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 1,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Rear Delt Fly",
+     "position": 2,
+     "set_number": 1,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Rear Delt Fly",
+     "position": 2,
+     "set_number": 2,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Rear Delt Fly",
+     "position": 2,
+     "set_number": 3,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 3,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 3,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 3,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 4,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 4,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 4,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 5,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 5,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 5,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 6,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 5,
+     "set_number": 4,
+     "weight": 7.5,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Preacher Curl",
+     "position": 6,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Preacher Curl",
+     "position": 6,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Preacher Curl",
+     "position": 6,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "routine": "Legs + Core",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Dumbbell Squat",
+     "position": 0,
+     "set_number": 1,
+     "weight": 30.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Squat",
+     "position": 0,
+     "set_number": 2,
+     "weight": 30.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Squat",
+     "position": 0,
+     "set_number": 3,
+     "weight": 27.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 1,
+     "weight": 75.0,
+     "reps": 8,
+     "note": "Wide foot, inner thigh"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 2,
+     "weight": 75.0,
+     "reps": 8,
+     "note": "Close top, quads"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 3,
+     "weight": 75.0,
+     "reps": 8,
+     "note": "Close bottom, quads/glutes"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 4,
+     "weight": 75.0,
+     "reps": 8,
+     "note": "Close middle, something"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 5,
+     "weight": 55.0,
+     "reps": 8,
+     "note": "Wide foot, inner thigh"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 6,
+     "weight": 55.0,
+     "reps": 8,
+     "note": "Close top, quads"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 7,
+     "weight": 55.0,
+     "reps": 8,
+     "note": "Close bottom, quads/glutes"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 8,
+     "weight": 55.0,
+     "reps": 8,
+     "note": "Close middle, something"
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 2,
+     "set_number": 1,
+     "weight": 55.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 2,
+     "set_number": 2,
+     "weight": 55.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 2,
+     "set_number": 3,
+     "weight": 55.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 3,
+     "set_number": 1,
+     "weight": 46.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 3,
+     "set_number": 2,
+     "weight": 32.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 3,
+     "set_number": 3,
+     "weight": 32.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 4,
+     "set_number": 1,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 4,
+     "set_number": 2,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 4,
+     "set_number": 3,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "routine": "Push",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 1,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Machine Chest Press",
+     "position": 1,
+     "set_number": 1,
+     "weight": 35.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Machine Chest Press",
+     "position": 1,
+     "set_number": 2,
+     "weight": 25.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Machine Chest Press",
+     "position": 1,
+     "set_number": 3,
+     "weight": 25.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 2,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 2,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 2,
+     "set_number": 3,
+     "weight": 2.5,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 3,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 3,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 3,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 4,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 4,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 4,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 5,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 5,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 5,
+     "set_number": 3,
+     "weight": 2.5,
+     "reps": 24,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 6,
+     "set_number": 1,
+     "weight": 14.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 6,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 6,
+     "set_number": 3,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 7,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 16,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 7,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 7,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 8,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 8,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 8,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "routine": "Pull",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 1,
+     "weight": 21.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 2,
+     "weight": 21.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 3,
+     "weight": 17.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 1,
+     "weight": 20.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 2,
+     "weight": 25.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 3,
+     "weight": 20.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 1,
+     "weight": 47.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 2,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 3,
+     "weight": 33.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 1,
+     "weight": 17.5,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 2,
+     "weight": 15.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 3,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 1,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 2,
+     "weight": 19.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 3,
+     "weight": 19.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Preacher Curl",
+     "position": 5,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Preacher Curl",
+     "position": 5,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Preacher Curl",
+     "position": 5,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 8,
+     "note": "Incline (logged 'I')"
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 8,
+     "note": "Normal (logged 'N')"
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "Normal (logged 'N')"
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 4,
+     "weight": 10.0,
+     "reps": 10,
+     "note": "Normal (logged 'N')"
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "routine": "Legs",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Barbell Squat",
+     "position": 0,
+     "set_number": 1,
+     "weight": 25.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Barbell Squat",
+     "position": 0,
+     "set_number": 2,
+     "weight": 30.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Barbell Squat",
+     "position": 0,
+     "set_number": 3,
+     "weight": 30.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 1,
+     "weight": 75.0,
+     "reps": 8,
+     "note": "Wide foot, inner thigh"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 2,
+     "weight": 75.0,
+     "reps": 8,
+     "note": "Close top, quads"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 3,
+     "weight": 75.0,
+     "reps": 8,
+     "note": "Close bottom, quads/glutes"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 4,
+     "weight": 75.0,
+     "reps": 8,
+     "note": "Close middle, something"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 5,
+     "weight": 65.0,
+     "reps": 8,
+     "note": "Wide foot, inner thigh"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 6,
+     "weight": 65.0,
+     "reps": 8,
+     "note": "Close top, quads"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 7,
+     "weight": 65.0,
+     "reps": 8,
+     "note": "Close bottom, quads/glutes"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 8,
+     "weight": 65.0,
+     "reps": 8,
+     "note": "Close middle, something"
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 2,
+     "set_number": 1,
+     "weight": 46.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 2,
+     "set_number": 2,
+     "weight": 32.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 2,
+     "set_number": 3,
+     "weight": 32.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 3,
+     "set_number": 1,
+     "weight": 45.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 3,
+     "set_number": 2,
+     "weight": 45.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 3,
+     "set_number": 3,
+     "weight": 45.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 4,
+     "set_number": 1,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 4,
+     "set_number": 2,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 4,
+     "set_number": 3,
+     "weight": 50.0,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "routine": "Upper Body",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Incline Chest Press",
+     "position": 0,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Chest Press",
+     "position": 0,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Chest Press",
+     "position": 0,
+     "set_number": 3,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 1,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 1,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 1,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 2,
+     "set_number": 1,
+     "weight": 8.75,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 2,
+     "set_number": 2,
+     "weight": 6.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 2,
+     "set_number": 3,
+     "weight": 6.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 3,
+     "set_number": 1,
+     "weight": 8.75,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 3,
+     "set_number": 2,
+     "weight": 6.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 3,
+     "set_number": 3,
+     "weight": 6.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 4,
+     "set_number": 1,
+     "weight": 20.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 4,
+     "set_number": 2,
+     "weight": 20.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 4,
+     "set_number": 3,
+     "weight": 17.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 5,
+     "set_number": 1,
+     "weight": 21.0,
+     "reps": 12,
+     "note": "Pull arm same leg down"
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 5,
+     "set_number": 2,
+     "weight": 21.0,
+     "reps": 12,
+     "note": "Pull arm same leg down"
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 5,
+     "set_number": 3,
+     "weight": 17.5,
+     "reps": 12,
+     "note": "Pull arm same leg down"
+    },
+    {
+     "exercise": "Seated Cable Row",
+     "position": 6,
+     "set_number": 1,
+     "weight": 47.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Seated Cable Row",
+     "position": 6,
+     "set_number": 2,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Seated Cable Row",
+     "position": 6,
+     "set_number": 3,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 7,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 7,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 7,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 8,
+     "set_number": 1,
+     "weight": 26.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 8,
+     "set_number": 2,
+     "weight": 19.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 8,
+     "set_number": 3,
+     "weight": 19.0,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-11-07",
+   "routine": "Shoulders + Arms",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Shoulder Press",
+     "position": 0,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 0,
+     "set_number": 2,
+     "weight": 15.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 0,
+     "set_number": 3,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 1,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 1,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 1,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Rear Delt Fly",
+     "position": 2,
+     "set_number": 1,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Rear Delt Fly",
+     "position": 2,
+     "set_number": 2,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Rear Delt Fly",
+     "position": 2,
+     "set_number": 3,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 3,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 3,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 3,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 16,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 4,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 4,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 4,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 5,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 5,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 5,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 5,
+     "set_number": 4,
+     "weight": 10.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Preacher Curl",
+     "position": 6,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Preacher Curl",
+     "position": 6,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Preacher Curl",
+     "position": 6,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "routine": "Push",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 2,
+     "weight": 15.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 3,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 1,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 1,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 1,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "High-to-Low Cable Fly",
+     "position": 2,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "High-to-low"
+    },
+    {
+     "exercise": "High-to-Low Cable Fly",
+     "position": 2,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "High-to-low"
+    },
+    {
+     "exercise": "High-to-Low Cable Fly",
+     "position": 2,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": "High-to-low"
+    },
+    {
+     "exercise": "High-to-Low Cable Fly",
+     "position": 2,
+     "set_number": 4,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "High-to-low"
+    },
+    {
+     "exercise": "High-to-Low Cable Fly",
+     "position": 2,
+     "set_number": 5,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "High-to-low"
+    },
+    {
+     "exercise": "High-to-Low Cable Fly",
+     "position": 2,
+     "set_number": 6,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "High-to-low"
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 3,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 3,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 3,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 4,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 4,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 4,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 5,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 5,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 5,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 6,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 6,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 6,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "routine": "Pull",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 1,
+     "weight": 21.0,
+     "reps": 12,
+     "note": "Pull arm same leg down"
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 2,
+     "weight": 21.0,
+     "reps": 12,
+     "note": "Pull arm same leg down"
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 3,
+     "weight": 21.0,
+     "reps": 12,
+     "note": "Pull arm same leg down"
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 1,
+     "weight": 20.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 2,
+     "weight": 20.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 3,
+     "weight": 20.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 1,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 2,
+     "weight": 47.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 3,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 2,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 3,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 1,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 2,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 3,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Preacher Curl",
+     "position": 5,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Preacher Curl",
+     "position": 5,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Preacher Curl",
+     "position": 5,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 10,
+     "note": "Normal (logged 'N')"
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 8,
+     "note": "Normal (logged 'N')"
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 6,
+     "note": "Normal (logged 'N')"
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 4,
+     "weight": 10.0,
+     "reps": 8,
+     "note": "Normal (logged 'N')"
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 8,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "routine": "Legs",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Barbell Squat",
+     "position": 0,
+     "set_number": 1,
+     "weight": 35.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Barbell Squat",
+     "position": 0,
+     "set_number": 2,
+     "weight": 30.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Barbell Squat",
+     "position": 0,
+     "set_number": 3,
+     "weight": 30.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 1,
+     "weight": 75.0,
+     "reps": 8,
+     "note": "Wide foot, inner thigh"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 2,
+     "weight": 75.0,
+     "reps": 8,
+     "note": "Close top, quads"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 3,
+     "weight": 75.0,
+     "reps": 8,
+     "note": "Close bottom, quads/glutes"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 4,
+     "weight": 75.0,
+     "reps": 8,
+     "note": "Close middle, something"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 5,
+     "weight": 75.0,
+     "reps": 8,
+     "note": "Wide foot, inner thigh"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 6,
+     "weight": 75.0,
+     "reps": 8,
+     "note": "Close top, quads"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 7,
+     "weight": 75.0,
+     "reps": 8,
+     "note": "Close bottom, quads/glutes"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 8,
+     "weight": 75.0,
+     "reps": 8,
+     "note": "Close middle, something"
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 2,
+     "set_number": 1,
+     "weight": 39.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 2,
+     "set_number": 2,
+     "weight": 39.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 2,
+     "set_number": 3,
+     "weight": 39.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 3,
+     "set_number": 1,
+     "weight": 55.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 3,
+     "set_number": 2,
+     "weight": 55.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 3,
+     "set_number": 3,
+     "weight": 55.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 4,
+     "set_number": 1,
+     "weight": 50.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 4,
+     "set_number": 2,
+     "weight": 50.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 4,
+     "set_number": 3,
+     "weight": 50.0,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "routine": "Upper Body",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Incline Chest Press",
+     "position": 0,
+     "set_number": 1,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Chest Press",
+     "position": 0,
+     "set_number": 2,
+     "weight": 15.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Incline Chest Press",
+     "position": 0,
+     "set_number": 3,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 1,
+     "set_number": 1,
+     "weight": 6.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 1,
+     "set_number": 2,
+     "weight": 3.75,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 1,
+     "set_number": 3,
+     "weight": 3.75,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 2,
+     "set_number": 1,
+     "weight": 8.75,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 2,
+     "set_number": 2,
+     "weight": 8.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Lower Chest)",
+     "position": 2,
+     "set_number": 3,
+     "weight": 8.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 3,
+     "set_number": 1,
+     "weight": 8.75,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 3,
+     "set_number": 2,
+     "weight": 8.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Cable Fly (Mid Chest)",
+     "position": 3,
+     "set_number": 3,
+     "weight": 8.25,
+     "reps": 12,
+     "note": "Low-to-high"
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 4,
+     "set_number": 1,
+     "weight": 20.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 4,
+     "set_number": 2,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 4,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 5,
+     "set_number": 1,
+     "weight": 24.5,
+     "reps": 8,
+     "note": "Pull arm same leg down"
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 5,
+     "set_number": 2,
+     "weight": 24.5,
+     "reps": 8,
+     "note": "Pull arm same leg down"
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 5,
+     "set_number": 3,
+     "weight": 21.0,
+     "reps": 12,
+     "note": "Pull arm same leg down"
+    },
+    {
+     "exercise": "Seated Cable Row",
+     "position": 6,
+     "set_number": 1,
+     "weight": 47.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Seated Cable Row",
+     "position": 6,
+     "set_number": 2,
+     "weight": 47.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Seated Cable Row",
+     "position": 6,
+     "set_number": 3,
+     "weight": 47.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 7,
+     "set_number": 1,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 7,
+     "set_number": 2,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 7,
+     "set_number": 3,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 8,
+     "set_number": 1,
+     "weight": 19.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 8,
+     "set_number": 2,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 8,
+     "set_number": 3,
+     "weight": 33.0,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "routine": "Shoulders + Arms",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Shoulder Press",
+     "position": 0,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 0,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 0,
+     "set_number": 3,
+     "weight": 12.5,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 1,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 1,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 1,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Rear Delt Fly",
+     "position": 2,
+     "set_number": 1,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Rear Delt Fly",
+     "position": 2,
+     "set_number": 2,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Rear Delt Fly",
+     "position": 2,
+     "set_number": 3,
+     "weight": 19.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 3,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 8,
+     "note": "Straight bar"
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 3,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 10,
+     "note": "Straight bar"
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 3,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 10,
+     "note": "Straight bar"
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 4,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 4,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 4,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 5,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 5,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 5,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 5,
+     "set_number": 4,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 6,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 6,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 6,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "routine": "Pull",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 1,
+     "weight": 17.5,
+     "reps": 12,
+     "note": "Pull arm same leg down"
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 2,
+     "weight": 17.5,
+     "reps": 12,
+     "note": "Pull arm same leg down"
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 0,
+     "set_number": 3,
+     "weight": 21.0,
+     "reps": 12,
+     "note": "Pull arm same leg down"
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 2,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 1,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 2,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 2,
+     "set_number": 3,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 2,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 3,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 1,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 2,
+     "weight": 26.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 4,
+     "set_number": 3,
+     "weight": 19.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Preacher Curl",
+     "position": 5,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Preacher Curl",
+     "position": 5,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Preacher Curl",
+     "position": 5,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 10,
+     "note": "Normal (logged 'N')"
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 8,
+     "note": "Normal (logged 'N')"
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": "Normal (logged 'N')"
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 6,
+     "set_number": 4,
+     "weight": 10.0,
+     "reps": 6,
+     "note": "Normal (logged 'N')"
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 7,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "routine": "Legs",
+   "notes": null,
+   "created_at": "2026-11-21T23:01:03",
+   "sets": [
+    {
+     "exercise": "Barbell Squat",
+     "position": 0,
+     "set_number": 1,
+     "weight": 45.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Barbell Squat",
+     "position": 0,
+     "set_number": 2,
+     "weight": 45.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Barbell Squat",
+     "position": 0,
+     "set_number": 3,
+     "weight": 45.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 1,
+     "weight": 65.0,
+     "reps": 8,
+     "note": "Wide foot, inner thigh"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 2,
+     "weight": 65.0,
+     "reps": 8,
+     "note": "Close top, quads"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 3,
+     "weight": 65.0,
+     "reps": 8,
+     "note": "Close bottom, quads/glutes"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 4,
+     "weight": 65.0,
+     "reps": 8,
+     "note": "Close middle, something"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 5,
+     "weight": 65.0,
+     "reps": 8,
+     "note": "Wide foot, inner thigh"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 6,
+     "weight": 65.0,
+     "reps": 8,
+     "note": "Close top, quads"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 7,
+     "weight": 65.0,
+     "reps": 8,
+     "note": "Close bottom, quads/glutes"
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 8,
+     "weight": 65.0,
+     "reps": 8,
+     "note": "Close middle, something"
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 2,
+     "set_number": 1,
+     "weight": 46.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 2,
+     "set_number": 2,
+     "weight": 39.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 2,
+     "set_number": 3,
+     "weight": 39.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 3,
+     "set_number": 1,
+     "weight": 55.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 3,
+     "set_number": 2,
+     "weight": 65.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 3,
+     "set_number": 3,
+     "weight": 55.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 4,
+     "set_number": 1,
+     "weight": 50.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 4,
+     "set_number": 2,
+     "weight": 50.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 4,
+     "set_number": 3,
+     "weight": 50.0,
+     "reps": 12,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

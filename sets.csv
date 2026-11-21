@@ -1,0 +1,717 @@
+date,routine,exercise,muscle_group,set,weight_kg,reps,unit,note
+2026-09-23,Pull,Single-arm Cable Lat Pulldown,Back,1,13.75,12,reps,
+2026-09-23,Pull,Single-arm Cable Lat Pulldown,Back,2,16.75,12,reps,
+2026-09-23,Pull,Single-arm Cable Lat Pulldown,Back,3,21.25,8,reps,
+2026-09-23,Pull,Chest-supported T-bar Row,Back,1,10.0,12,reps,
+2026-09-23,Pull,Chest-supported T-bar Row,Back,2,10.0,12,reps,
+2026-09-23,Pull,Chest-supported T-bar Row,Back,3,15.0,12,reps,
+2026-09-23,Pull,Lat Pulldown,Back,1,33.0,12,reps,
+2026-09-23,Pull,Lat Pulldown,Back,2,47.0,12,reps,
+2026-09-23,Pull,Lat Pulldown,Back,3,40.0,12,reps,
+2026-09-23,Pull,Straight-arm Cable Pullover,Back,1,12.5,12,reps,
+2026-09-23,Pull,Straight-arm Cable Pullover,Back,2,15.0,12,reps,
+2026-09-23,Pull,Straight-arm Cable Pullover,Back,3,12.5,12,reps,
+2026-09-23,Pull,Reverse Pec Deck,Shoulders,1,33.0,10,reps,
+2026-09-23,Pull,Reverse Pec Deck,Shoulders,2,26.0,10,reps,
+2026-09-23,Pull,Reverse Pec Deck,Shoulders,3,19.0,12,reps,
+2026-09-23,Pull,Incline Dumbbell Curl,Biceps,1,10.0,8,reps,
+2026-09-23,Pull,Incline Dumbbell Curl,Biceps,2,10.0,6,reps,Drop set - first part
+2026-09-23,Pull,Incline Dumbbell Curl,Biceps,3,7.5,3,reps,Drop set - after drop
+2026-09-23,Pull,Incline Dumbbell Curl,Biceps,4,7.5,12,reps,
+2026-09-23,Pull,Supported Dumbbell Curl,Biceps,1,7.5,8,reps,
+2026-09-23,Pull,Supported Dumbbell Curl,Biceps,2,7.5,8,reps,
+2026-09-23,Pull,Supported Dumbbell Curl,Biceps,3,7.5,8,reps,
+2026-09-23,Pull,Hammer Curl,Biceps,1,10.0,16,reps,
+2026-09-23,Pull,Hammer Curl,Biceps,2,7.5,20,reps,
+2026-09-23,Pull,Hammer Curl,Biceps,3,7.5,20,reps,
+2026-09-24,Legs,Dumbbell Squat,Legs,1,20.0,12,reps,
+2026-09-24,Legs,Dumbbell Squat,Legs,2,22.5,12,reps,
+2026-09-24,Legs,Dumbbell Squat,Legs,3,25.0,12,reps,
+2026-09-24,Legs,Romanian Deadlift,Legs,1,30.0,10,reps,
+2026-09-24,Legs,Romanian Deadlift,Legs,2,30.0,10,reps,
+2026-09-24,Legs,Romanian Deadlift,Legs,3,35.0,10,reps,
+2026-09-24,Legs,Leg Press,Legs,1,65.0,12,reps,
+2026-09-24,Legs,Leg Press,Legs,2,75.0,12,reps,
+2026-09-24,Legs,Leg Press,Legs,3,85.0,12,reps,
+2026-09-24,Legs,Leg Curl,Legs,1,39.0,12,reps,
+2026-09-24,Legs,Leg Curl,Legs,2,46.0,8,reps,Drop set - first part
+2026-09-24,Legs,Leg Curl,Legs,3,39.0,4,reps,Drop set - after drop
+2026-09-24,Legs,Leg Curl,Legs,4,39.0,8,reps,Drop set - first part
+2026-09-24,Legs,Leg Curl,Legs,5,32.0,4,reps,Drop set - after drop
+2026-09-24,Legs,Leg Extension,Legs,1,45.0,12,reps,
+2026-09-24,Legs,Leg Extension,Legs,2,45.0,12,reps,
+2026-09-24,Legs,Leg Extension,Legs,3,55.0,12,reps,
+2026-09-24,Legs,Calf Raise,Legs,1,45.0,12,reps,
+2026-09-24,Legs,Calf Raise,Legs,2,45.0,12,reps,
+2026-09-24,Legs,Calf Raise,Legs,3,50.0,10,reps,
+2026-09-25,Upper Body,Incline Chest Press,Chest,1,12.5,12,reps,
+2026-09-25,Upper Body,Incline Chest Press,Chest,2,12.5,12,reps,
+2026-09-25,Upper Body,Incline Chest Press,Chest,3,14.0,12,reps,
+2026-09-25,Upper Body,Low-to-High Cable Fly,Chest,1,7.5,12,reps,Low-to-high
+2026-09-25,Upper Body,Low-to-High Cable Fly,Chest,2,5.0,12,reps,Low-to-high
+2026-09-25,Upper Body,Low-to-High Cable Fly,Chest,3,5.0,12,reps,Low-to-high
+2026-09-25,Upper Body,Low-to-High Cable Fly,Chest,4,7.5,10,reps,Low-to-high
+2026-09-25,Upper Body,Low-to-High Cable Fly,Chest,5,5.0,12,reps,Low-to-high
+2026-09-25,Upper Body,Low-to-High Cable Fly,Chest,6,5.0,12,reps,Low-to-high
+2026-09-25,Upper Body,Cable Fly (Lower Chest),Chest,1,7.5,12,reps,Low-to-high
+2026-09-25,Upper Body,Cable Fly (Lower Chest),Chest,2,7.5,12,reps,Low-to-high
+2026-09-25,Upper Body,Cable Fly (Lower Chest),Chest,3,5.0,12,reps,Low-to-high
+2026-09-25,Upper Body,Cable Fly (Mid Chest),Chest,1,7.5,12,reps,Low-to-high
+2026-09-25,Upper Body,Cable Fly (Mid Chest),Chest,2,5.0,12,reps,Low-to-high
+2026-09-25,Upper Body,Cable Fly (Mid Chest),Chest,3,5.0,12,reps,Low-to-high
+2026-09-25,Upper Body,Chest-supported T-bar Row,Back,1,20.0,12,reps,
+2026-09-25,Upper Body,Chest-supported T-bar Row,Back,2,15.0,12,reps,
+2026-09-25,Upper Body,Chest-supported T-bar Row,Back,3,10.0,12,reps,
+2026-09-25,Upper Body,Single-arm Cable Lat Pulldown,Back,1,15.0,12,reps,
+2026-09-25,Upper Body,Single-arm Cable Lat Pulldown,Back,2,17.5,12,reps,
+2026-09-25,Upper Body,Single-arm Cable Lat Pulldown,Back,3,21.0,12,reps,
+2026-09-25,Upper Body,Seated Cable Row,Back,1,33.0,10,reps,
+2026-09-25,Upper Body,Seated Cable Row,Back,2,40.0,10,reps,
+2026-09-25,Upper Body,Seated Cable Row,Back,3,47.0,8,reps,
+2026-09-25,Upper Body,Straight-arm Cable Pullover,Back,1,15.0,12,reps,
+2026-09-25,Upper Body,Straight-arm Cable Pullover,Back,2,12.5,12,reps,
+2026-09-25,Upper Body,Straight-arm Cable Pullover,Back,3,12.5,12,reps,
+2026-09-25,Upper Body,Cable Lateral Raise,Shoulders,1,7.5,10,reps,
+2026-09-25,Upper Body,Cable Lateral Raise,Shoulders,2,5.0,12,reps,
+2026-09-25,Upper Body,Cable Lateral Raise,Shoulders,3,5.0,12,reps,
+2026-09-25,Upper Body,Reverse Pec Deck,Shoulders,1,19.0,12,reps,
+2026-09-25,Upper Body,Reverse Pec Deck,Shoulders,2,26.0,12,reps,
+2026-09-25,Upper Body,Reverse Pec Deck,Shoulders,3,19.0,10,reps,
+2026-09-26,Shoulders + Arms,Cable Lateral Raise,Shoulders,1,7.5,10,reps,
+2026-09-26,Shoulders + Arms,Cable Lateral Raise,Shoulders,2,5.0,12,reps,
+2026-09-26,Shoulders + Arms,Cable Lateral Raise,Shoulders,3,2.5,24,reps,
+2026-09-26,Shoulders + Arms,Rear Delt Fly,Shoulders,1,19.0,12,reps,
+2026-09-26,Shoulders + Arms,Rear Delt Fly,Shoulders,2,26.0,12,reps,
+2026-09-26,Shoulders + Arms,Rear Delt Fly,Shoulders,3,19.0,12,reps,
+2026-09-26,Shoulders + Arms,Shoulder Press,Shoulders,1,12.5,12,reps,
+2026-09-26,Shoulders + Arms,Shoulder Press,Shoulders,2,12.5,12,reps,
+2026-09-26,Shoulders + Arms,Shoulder Press,Shoulders,3,10.0,12,reps,
+2026-09-26,Shoulders + Arms,Overhead Cable Triceps Extension,Triceps,1,5.0,12,reps,
+2026-09-26,Shoulders + Arms,Overhead Cable Triceps Extension,Triceps,2,5.0,12,reps,
+2026-09-26,Shoulders + Arms,Overhead Cable Triceps Extension,Triceps,3,7.5,12,reps,
+2026-09-26,Shoulders + Arms,Triceps Pushdown,Triceps,1,10.0,12,reps,
+2026-09-26,Shoulders + Arms,Triceps Pushdown,Triceps,2,12.5,12,reps,
+2026-09-26,Shoulders + Arms,Triceps Pushdown,Triceps,3,12.5,8,reps,
+2026-09-26,Shoulders + Arms,Dumbbell Curl,Biceps,1,7.5,12,reps,
+2026-09-26,Shoulders + Arms,Dumbbell Curl,Biceps,2,7.5,12,reps,
+2026-09-26,Shoulders + Arms,Dumbbell Curl,Biceps,3,10.0,4,reps,
+2026-09-26,Shoulders + Arms,Dumbbell Curl,Biceps,4,7.5,4,reps,
+2026-09-26,Shoulders + Arms,Single-arm Preacher Curl,Biceps,1,10.0,12,reps,
+2026-09-26,Shoulders + Arms,Single-arm Preacher Curl,Biceps,2,7.5,12,reps,
+2026-09-26,Shoulders + Arms,Single-arm Preacher Curl,Biceps,3,7.5,12,reps,
+2026-09-26,Shoulders + Arms,Hammer Curl,Biceps,1,10.0,12,reps,
+2026-09-26,Shoulders + Arms,Hammer Curl,Biceps,2,7.5,12,reps,
+2026-09-26,Shoulders + Arms,Hammer Curl,Biceps,3,7.5,12,reps,
+2026-09-28,Push,Incline Dumbbell Press,Chest,1,10.0,12,reps,
+2026-09-28,Push,Incline Dumbbell Press,Chest,2,12.5,12,reps,
+2026-09-28,Push,Incline Dumbbell Press,Chest,3,10.0,12,reps,
+2026-09-28,Push,Machine Chest Press,Chest,1,35.0,12,reps,
+2026-09-28,Push,Machine Chest Press,Chest,2,35.0,12,reps,
+2026-09-28,Push,Machine Chest Press,Chest,3,35.0,12,reps,
+2026-09-28,Push,Low-to-High Cable Fly,Chest,1,3.75,12,reps,Low-to-high
+2026-09-28,Push,Low-to-High Cable Fly,Chest,2,3.75,12,reps,Low-to-high
+2026-09-28,Push,Low-to-High Cable Fly,Chest,3,3.75,12,reps,Low-to-high
+2026-09-28,Push,Cable Fly (Lower Chest),Chest,1,6.25,12,reps,Low-to-high
+2026-09-28,Push,Cable Fly (Lower Chest),Chest,2,6.25,12,reps,Low-to-high
+2026-09-28,Push,Cable Fly (Lower Chest),Chest,3,6.25,12,reps,Low-to-high
+2026-09-28,Push,Cable Fly (Mid Chest),Chest,1,6.25,12,reps,Low-to-high
+2026-09-28,Push,Cable Fly (Mid Chest),Chest,2,6.25,12,reps,Low-to-high
+2026-09-28,Push,Cable Fly (Mid Chest),Chest,3,6.25,12,reps,Low-to-high
+2026-09-28,Push,Cable Lateral Raise,Shoulders,1,5.0,12,reps,
+2026-09-28,Push,Cable Lateral Raise,Shoulders,2,5.0,12,reps,
+2026-09-28,Push,Cable Lateral Raise,Shoulders,3,2.5,24,reps,
+2026-09-28,Push,Shoulder Press,Shoulders,1,10.0,12,reps,
+2026-09-28,Push,Shoulder Press,Shoulders,2,10.0,12,reps,
+2026-09-28,Push,Shoulder Press,Shoulders,3,10.0,12,reps,
+2026-09-28,Push,Overhead Cable Triceps Extension,Triceps,1,7.5,12,reps,
+2026-09-28,Push,Overhead Cable Triceps Extension,Triceps,2,7.5,12,reps,
+2026-09-28,Push,Overhead Cable Triceps Extension,Triceps,3,5.0,12,reps,
+2026-09-28,Push,Triceps Pushdown,Triceps,1,12.5,10,reps,
+2026-09-28,Push,Triceps Pushdown,Triceps,2,10.0,10,reps,
+2026-09-28,Push,Triceps Pushdown,Triceps,3,12.5,12,reps,
+2026-09-29,Pull,Single-arm Cable Lat Pulldown,Back,1,16.25,12,reps,
+2026-09-29,Pull,Single-arm Cable Lat Pulldown,Back,2,16.25,12,reps,
+2026-09-29,Pull,Single-arm Cable Lat Pulldown,Back,3,21.25,8,reps,
+2026-09-29,Pull,Chest-supported T-bar Row,Back,1,10.0,12,reps,
+2026-09-29,Pull,Chest-supported T-bar Row,Back,2,10.0,12,reps,
+2026-09-29,Pull,Chest-supported T-bar Row,Back,3,20.0,12,reps,
+2026-09-29,Pull,Lat Pulldown,Back,1,10.66,12,reps,"Logged as 23.5 lb, converted to kg"
+2026-09-29,Pull,Lat Pulldown,Back,2,33.0,12,reps,
+2026-09-29,Pull,Lat Pulldown,Back,3,40.0,12,reps,
+2026-09-29,Pull,Straight-arm Cable Pullover,Back,1,16.5,12,reps,
+2026-09-29,Pull,Straight-arm Cable Pullover,Back,2,13.75,12,reps,
+2026-09-29,Pull,Straight-arm Cable Pullover,Back,3,11.25,12,reps,
+2026-09-29,Pull,Reverse Pec Deck,Shoulders,1,26.0,12,reps,
+2026-09-29,Pull,Reverse Pec Deck,Shoulders,2,19.0,12,reps,
+2026-09-29,Pull,Reverse Pec Deck,Shoulders,3,19.0,12,reps,
+2026-09-29,Pull,Incline Dumbbell Curl,Biceps,1,7.5,12,reps,
+2026-09-29,Pull,Incline Dumbbell Curl,Biceps,2,7.5,12,reps,
+2026-09-29,Pull,Incline Dumbbell Curl,Biceps,3,7.5,12,reps,
+2026-09-29,Pull,Preacher Curl,Biceps,1,5.0,12,reps,
+2026-09-29,Pull,Preacher Curl,Biceps,2,7.5,12,reps,
+2026-09-29,Pull,Preacher Curl,Biceps,3,5.0,12,reps,
+2026-09-29,Pull,Dumbbell Curl,Biceps,1,7.5,12,reps,
+2026-09-29,Pull,Dumbbell Curl,Biceps,2,10.0,8,reps,
+2026-09-29,Pull,Dumbbell Curl,Biceps,3,7.5,12,reps,
+2026-09-29,Pull,Hammer Curl,Biceps,1,7.5,12,reps,
+2026-09-29,Pull,Hammer Curl,Biceps,2,7.5,12,reps,
+2026-09-29,Pull,Hammer Curl,Biceps,3,7.5,12,reps,
+2026-10-08,Push,Incline Dumbbell Press,Chest,1,10.0,12,reps,
+2026-10-08,Push,Incline Dumbbell Press,Chest,2,10.0,12,reps,
+2026-10-08,Push,Incline Dumbbell Press,Chest,3,12.5,12,reps,
+2026-10-08,Push,Machine Chest Press,Chest,1,25.0,12,reps,
+2026-10-08,Push,Machine Chest Press,Chest,2,25.0,12,reps,
+2026-10-08,Push,Machine Chest Press,Chest,3,35.0,10,reps,
+2026-10-08,Push,Low-to-High Cable Fly,Chest,1,5.0,12,reps,Low-to-high
+2026-10-08,Push,Low-to-High Cable Fly,Chest,2,5.0,12,reps,Low-to-high
+2026-10-08,Push,Low-to-High Cable Fly,Chest,3,5.0,12,reps,Low-to-high
+2026-10-08,Push,Cable Fly (Lower Chest),Chest,1,5.0,12,reps,Low-to-high
+2026-10-08,Push,Cable Fly (Lower Chest),Chest,2,5.0,12,reps,Low-to-high
+2026-10-08,Push,Cable Fly (Lower Chest),Chest,3,5.0,12,reps,Low-to-high
+2026-10-08,Push,Cable Fly (Mid Chest),Chest,1,5.0,12,reps,Low-to-high
+2026-10-08,Push,Cable Fly (Mid Chest),Chest,2,5.0,12,reps,Low-to-high
+2026-10-08,Push,Cable Fly (Mid Chest),Chest,3,5.0,12,reps,Low-to-high
+2026-10-08,Push,Cable Lateral Raise,Shoulders,1,5.0,12,reps,
+2026-10-08,Push,Cable Lateral Raise,Shoulders,2,2.5,12,reps,
+2026-10-08,Push,Cable Lateral Raise,Shoulders,3,2.5,12,reps,
+2026-10-08,Push,Shoulder Press,Shoulders,1,10.0,12,reps,
+2026-10-08,Push,Shoulder Press,Shoulders,2,10.0,12,reps,
+2026-10-08,Push,Shoulder Press,Shoulders,3,10.0,12,reps,
+2026-10-08,Push,Overhead Cable Triceps Extension,Triceps,1,7.5,12,reps,
+2026-10-08,Push,Overhead Cable Triceps Extension,Triceps,2,5.0,12,reps,
+2026-10-08,Push,Overhead Cable Triceps Extension,Triceps,3,5.0,12,reps,
+2026-10-08,Push,Triceps Pushdown,Triceps,1,12.5,10,reps,
+2026-10-08,Push,Triceps Pushdown,Triceps,2,10.0,10,reps,
+2026-10-08,Push,Triceps Pushdown,Triceps,3,10.0,12,reps,
+2026-10-09,Pull,Single-arm Cable Lat Pulldown,Back,1,15.0,12,reps,
+2026-10-09,Pull,Single-arm Cable Lat Pulldown,Back,2,15.0,12,reps,
+2026-10-09,Pull,Single-arm Cable Lat Pulldown,Back,3,21.0,8,reps,
+2026-10-09,Pull,Chest-supported T-bar Row,Back,1,10.0,12,reps,
+2026-10-09,Pull,Chest-supported T-bar Row,Back,2,10.0,12,reps,
+2026-10-09,Pull,Chest-supported T-bar Row,Back,3,10.0,12,reps,
+2026-10-09,Pull,Lat Pulldown,Back,1,33.0,12,reps,
+2026-10-09,Pull,Lat Pulldown,Back,2,33.0,12,reps,
+2026-10-09,Pull,Lat Pulldown,Back,3,40.0,12,reps,
+2026-10-09,Pull,Straight-arm Cable Pullover,Back,1,15.0,12,reps,
+2026-10-09,Pull,Straight-arm Cable Pullover,Back,2,12.5,12,reps,
+2026-10-09,Pull,Straight-arm Cable Pullover,Back,3,12.5,12,reps,
+2026-10-09,Pull,Reverse Pec Deck,Shoulders,1,26.0,12,reps,
+2026-10-09,Pull,Reverse Pec Deck,Shoulders,2,26.0,12,reps,
+2026-10-09,Pull,Reverse Pec Deck,Shoulders,3,26.0,12,reps,
+2026-10-09,Pull,Preacher Curl,Biceps,1,5.0,12,reps,
+2026-10-09,Pull,Preacher Curl,Biceps,2,7.5,12,reps,
+2026-10-09,Pull,Preacher Curl,Biceps,3,5.0,12,reps,
+2026-10-09,Pull,Dumbbell Curl,Biceps,1,7.5,12,reps,
+2026-10-09,Pull,Dumbbell Curl,Biceps,2,7.5,12,reps,
+2026-10-09,Pull,Dumbbell Curl,Biceps,3,7.5,12,reps,
+2026-10-09,Pull,Hammer Curl,Biceps,1,7.5,12,reps,
+2026-10-09,Pull,Hammer Curl,Biceps,2,7.5,12,reps,
+2026-10-09,Pull,Hammer Curl,Biceps,3,7.5,12,reps,
+2026-10-10,Legs,Dumbbell Squat,Legs,1,20.0,12,reps,
+2026-10-10,Legs,Dumbbell Squat,Legs,2,20.0,12,reps,
+2026-10-10,Legs,Dumbbell Squat,Legs,3,22.5,12,reps,
+2026-10-10,Legs,Romanian Deadlift,Legs,1,20.0,12,reps,
+2026-10-10,Legs,Romanian Deadlift,Legs,2,20.0,6,reps,
+2026-10-10,Legs,Romanian Deadlift,Legs,3,20.0,6,reps,
+2026-10-10,Legs,Leg Press,Legs,1,55.0,12,reps,
+2026-10-10,Legs,Leg Press,Legs,2,65.0,12,reps,
+2026-10-10,Legs,Leg Press,Legs,3,65.0,12,reps,
+2026-10-10,Legs,Leg Curl,Legs,1,39.0,12,reps,
+2026-10-10,Legs,Leg Curl,Legs,2,46.0,10,reps,
+2026-10-10,Legs,Leg Curl,Legs,3,39.0,12,reps,
+2026-10-10,Legs,Leg Extension,Legs,1,35.0,12,reps,
+2026-10-10,Legs,Leg Extension,Legs,2,45.0,12,reps,
+2026-10-10,Legs,Leg Extension,Legs,3,45.0,12,reps,
+2026-10-12,Push,Incline Dumbbell Press,Chest,1,10.0,12,reps,
+2026-10-12,Push,Incline Dumbbell Press,Chest,2,10.0,12,reps,
+2026-10-12,Push,Incline Dumbbell Press,Chest,3,12.5,12,reps,
+2026-10-12,Push,Machine Chest Press,Chest,1,25.0,12,reps,
+2026-10-12,Push,Machine Chest Press,Chest,2,15.0,12,reps,
+2026-10-12,Push,Machine Chest Press,Chest,3,15.0,12,reps,
+2026-10-12,Push,Low-to-High Cable Fly,Chest,1,15.0,12,reps,Low-to-high; Unusual weight - likely a different machine
+2026-10-12,Push,Low-to-High Cable Fly,Chest,2,25.0,12,reps,Low-to-high; Unusual weight - likely a different machine
+2026-10-12,Push,Low-to-High Cable Fly,Chest,3,15.0,12,reps,Low-to-high; Unusual weight - likely a different machine
+2026-10-12,Push,Cable Fly (Lower Chest),Chest,1,25.0,12,reps,Low-to-high; Unusual weight - likely a different machine
+2026-10-12,Push,Cable Fly (Lower Chest),Chest,2,35.0,12,reps,Low-to-high; Unusual weight - likely a different machine
+2026-10-12,Push,Cable Fly (Lower Chest),Chest,3,25.0,12,reps,Low-to-high; Unusual weight - likely a different machine
+2026-10-12,Push,Cable Fly (Mid Chest),Chest,1,25.0,12,reps,Low-to-high; Unusual weight - likely a different machine
+2026-10-12,Push,Cable Fly (Mid Chest),Chest,2,25.0,12,reps,Low-to-high; Unusual weight - likely a different machine
+2026-10-12,Push,Cable Fly (Mid Chest),Chest,3,25.0,12,reps,Low-to-high; Unusual weight - likely a different machine
+2026-10-12,Push,Cable Lateral Raise,Shoulders,1,5.0,12,reps,
+2026-10-12,Push,Cable Lateral Raise,Shoulders,2,2.5,24,reps,
+2026-10-12,Push,Cable Lateral Raise,Shoulders,3,2.5,16,reps,
+2026-10-12,Push,Shoulder Press,Shoulders,1,10.0,12,reps,
+2026-10-12,Push,Shoulder Press,Shoulders,2,12.5,8,reps,
+2026-10-12,Push,Shoulder Press,Shoulders,3,10.0,12,reps,
+2026-10-12,Push,Overhead Cable Triceps Extension,Triceps,1,7.5,12,reps,
+2026-10-12,Push,Overhead Cable Triceps Extension,Triceps,2,5.0,12,reps,
+2026-10-12,Push,Overhead Cable Triceps Extension,Triceps,3,5.0,12,reps,
+2026-10-12,Push,Triceps Pushdown,Triceps,1,10.0,12,reps,
+2026-10-12,Push,Triceps Pushdown,Triceps,2,7.5,12,reps,
+2026-10-12,Push,Triceps Pushdown,Triceps,3,7.5,12,reps,
+2026-10-13,Pull,Single-arm Cable Lat Pulldown,Back,1,15.0,12,reps,
+2026-10-13,Pull,Single-arm Cable Lat Pulldown,Back,2,17.5,12,reps,
+2026-10-13,Pull,Single-arm Cable Lat Pulldown,Back,3,21.0,8,reps,
+2026-10-13,Pull,Chest-supported T-bar Row,Back,1,15.0,12,reps,
+2026-10-13,Pull,Chest-supported T-bar Row,Back,2,15.0,12,reps,
+2026-10-13,Pull,Chest-supported T-bar Row,Back,3,10.0,12,reps,
+2026-10-13,Pull,Lat Pulldown,Back,1,33.0,12,reps,
+2026-10-13,Pull,Lat Pulldown,Back,2,33.0,12,reps,
+2026-10-13,Pull,Lat Pulldown,Back,3,40.0,12,reps,
+2026-10-13,Pull,Straight-arm Cable Pullover,Back,1,15.0,12,reps,
+2026-10-13,Pull,Straight-arm Cable Pullover,Back,2,12.5,12,reps,
+2026-10-13,Pull,Straight-arm Cable Pullover,Back,3,12.5,12,reps,
+2026-10-13,Pull,Reverse Pec Deck,Shoulders,1,26.0,12,reps,
+2026-10-13,Pull,Reverse Pec Deck,Shoulders,2,19.0,12,reps,
+2026-10-13,Pull,Reverse Pec Deck,Shoulders,3,19.0,12,reps,
+2026-10-13,Pull,Preacher Curl,Biceps,1,5.0,8,reps,
+2026-10-13,Pull,Preacher Curl,Biceps,2,7.5,8,reps,
+2026-10-13,Pull,Dumbbell Curl,Biceps,1,7.5,12,reps,
+2026-10-13,Pull,Dumbbell Curl,Biceps,2,7.5,12,reps,
+2026-10-13,Pull,Dumbbell Curl,Biceps,3,7.5,12,reps,
+2026-10-13,Pull,Hammer Curl,Biceps,1,7.5,12,reps,
+2026-10-13,Pull,Hammer Curl,Biceps,2,7.5,12,reps,
+2026-10-13,Pull,Hammer Curl,Biceps,3,7.5,12,reps,
+2026-10-14,Legs,Dumbbell Squat,Legs,1,25.0,12,reps,
+2026-10-14,Legs,Dumbbell Squat,Legs,2,25.0,12,reps,
+2026-10-14,Legs,Dumbbell Squat,Legs,3,20.0,12,reps,
+2026-10-14,Legs,Romanian Deadlift,Legs,1,10.0,12,reps,
+2026-10-14,Legs,Romanian Deadlift,Legs,2,10.0,12,reps,
+2026-10-14,Legs,Romanian Deadlift,Legs,3,10.0,12,reps,
+2026-10-14,Legs,Leg Press,Legs,1,65.0,12,reps,
+2026-10-14,Legs,Leg Press,Legs,2,65.0,12,reps,
+2026-10-14,Legs,Leg Press,Legs,3,65.0,12,reps,
+2026-10-14,Legs,Leg Curl,Legs,1,39.0,12,reps,
+2026-10-14,Legs,Leg Curl,Legs,2,39.0,10,reps,
+2026-10-14,Legs,Leg Curl,Legs,3,32.0,12,reps,
+2026-10-14,Legs,Leg Extension,Legs,1,45.0,12,reps,
+2026-10-14,Legs,Leg Extension,Legs,2,45.0,12,reps,
+2026-10-14,Legs,Leg Extension,Legs,3,45.0,12,reps,
+2026-10-14,Legs,Calf Raise,Legs,1,40.0,12,reps,
+2026-10-14,Legs,Calf Raise,Legs,2,40.0,12,reps,
+2026-10-14,Legs,Calf Raise,Legs,3,40.0,12,reps,
+2026-10-19,Push,Incline Dumbbell Press,Chest,1,7.5,12,reps,
+2026-10-19,Push,Incline Dumbbell Press,Chest,2,10.0,12,reps,
+2026-10-19,Push,Incline Dumbbell Press,Chest,3,10.0,12,reps,
+2026-10-19,Push,Machine Chest Press,Chest,1,25.0,12,reps,
+2026-10-19,Push,Machine Chest Press,Chest,2,25.0,12,reps,
+2026-10-19,Push,Machine Chest Press,Chest,3,25.0,12,reps,
+2026-10-19,Push,Low-to-High Cable Fly,Chest,1,6.25,12,reps,Low-to-high
+2026-10-19,Push,Low-to-High Cable Fly,Chest,2,3.75,12,reps,Low-to-high
+2026-10-19,Push,Low-to-High Cable Fly,Chest,3,3.75,12,reps,Low-to-high
+2026-10-19,Push,Cable Fly (Lower Chest),Chest,1,8.75,12,reps,Low-to-high
+2026-10-19,Push,Cable Fly (Lower Chest),Chest,2,8.75,12,reps,Low-to-high
+2026-10-19,Push,Cable Fly (Lower Chest),Chest,3,6.25,12,reps,Low-to-high
+2026-10-19,Push,Cable Fly (Mid Chest),Chest,1,8.25,12,reps,Low-to-high
+2026-10-19,Push,Cable Fly (Mid Chest),Chest,2,6.25,12,reps,Low-to-high
+2026-10-19,Push,Cable Fly (Mid Chest),Chest,3,6.25,12,reps,Low-to-high
+2026-10-19,Push,Cable Lateral Raise,Shoulders,1,5.0,12,reps,
+2026-10-19,Push,Cable Lateral Raise,Shoulders,2,2.5,12,reps,
+2026-10-19,Push,Cable Lateral Raise,Shoulders,3,2.5,12,reps,
+2026-10-19,Push,Shoulder Press,Shoulders,1,10.0,12,reps,
+2026-10-19,Push,Shoulder Press,Shoulders,2,10.0,12,reps,
+2026-10-19,Push,Shoulder Press,Shoulders,3,7.5,12,reps,
+2026-10-19,Push,Overhead Cable Triceps Extension,Triceps,1,5.0,12,reps,
+2026-10-19,Push,Overhead Cable Triceps Extension,Triceps,2,5.0,12,reps,
+2026-10-19,Push,Overhead Cable Triceps Extension,Triceps,3,5.0,12,reps,
+2026-10-19,Push,Triceps Pushdown,Triceps,1,10.0,12,reps,
+2026-10-19,Push,Triceps Pushdown,Triceps,2,10.0,12,reps,
+2026-10-19,Push,Triceps Pushdown,Triceps,3,7.5,12,reps,
+2026-10-20,Pull,Single-arm Cable Lat Pulldown,Back,1,17.5,12,reps,
+2026-10-20,Pull,Single-arm Cable Lat Pulldown,Back,2,17.5,12,reps,
+2026-10-20,Pull,Single-arm Cable Lat Pulldown,Back,3,15.0,12,reps,
+2026-10-20,Pull,Chest-supported T-bar Row,Back,1,20.0,12,reps,
+2026-10-20,Pull,Chest-supported T-bar Row,Back,2,15.0,12,reps,
+2026-10-20,Pull,Chest-supported T-bar Row,Back,3,10.0,12,reps,
+2026-10-20,Pull,Lat Pulldown,Back,1,40.0,12,reps,
+2026-10-20,Pull,Lat Pulldown,Back,2,40.0,12,reps,
+2026-10-20,Pull,Lat Pulldown,Back,3,33.0,12,reps,
+2026-10-20,Pull,Straight-arm Cable Pullover,Back,1,15.0,12,reps,
+2026-10-20,Pull,Straight-arm Cable Pullover,Back,2,12.5,12,reps,
+2026-10-20,Pull,Straight-arm Cable Pullover,Back,3,12.5,12,reps,
+2026-10-20,Pull,Reverse Pec Deck,Shoulders,1,26.0,12,reps,
+2026-10-20,Pull,Reverse Pec Deck,Shoulders,2,19.0,12,reps,
+2026-10-20,Pull,Reverse Pec Deck,Shoulders,3,19.0,12,reps,
+2026-10-20,Pull,Preacher Curl,Biceps,1,5.0,8,reps,
+2026-10-20,Pull,Preacher Curl,Biceps,2,7.5,8,reps,
+2026-10-20,Pull,Dumbbell Curl,Biceps,1,10.0,8,reps,Incline (logged 'I')
+2026-10-20,Pull,Dumbbell Curl,Biceps,2,10.0,8,reps,Normal (logged 'N')
+2026-10-20,Pull,Dumbbell Curl,Biceps,3,7.5,12,reps,Incline (logged 'I')
+2026-10-20,Pull,Dumbbell Curl,Biceps,4,7.5,12,reps,Normal (logged 'N')
+2026-10-20,Pull,Hammer Curl,Biceps,1,10.0,8,reps,
+2026-10-20,Pull,Hammer Curl,Biceps,2,7.5,12,reps,
+2026-10-20,Pull,Hammer Curl,Biceps,3,7.5,12,reps,
+2026-10-21,Legs,Dumbbell Squat,Legs,1,27.5,12,reps,
+2026-10-21,Legs,Dumbbell Squat,Legs,2,27.5,12,reps,
+2026-10-21,Legs,Dumbbell Squat,Legs,3,25.0,12,reps,
+2026-10-21,Legs,Leg Press,Legs,1,75.0,12,reps,
+2026-10-21,Legs,Leg Press,Legs,2,75.0,12,reps,
+2026-10-21,Legs,Leg Press,Legs,3,65.0,12,reps,
+2026-10-21,Legs,Leg Curl,Legs,1,46.0,12,reps,
+2026-10-21,Legs,Leg Curl,Legs,2,32.0,12,reps,
+2026-10-21,Legs,Leg Curl,Legs,3,32.0,12,reps,
+2026-10-21,Legs,Leg Extension,Legs,1,45.0,12,reps,
+2026-10-21,Legs,Leg Extension,Legs,2,45.0,12,reps,
+2026-10-21,Legs,Leg Extension,Legs,3,45.0,12,reps,
+2026-10-21,Legs,Calf Raise,Legs,1,40.0,12,reps,
+2026-10-21,Legs,Calf Raise,Legs,2,40.0,12,reps,
+2026-10-21,Legs,Calf Raise,Legs,3,40.0,12,reps,
+2026-10-29,Upper Body,Incline Chest Press,Chest,1,12.5,12,reps,
+2026-10-29,Upper Body,Incline Chest Press,Chest,2,12.5,12,reps,
+2026-10-29,Upper Body,Incline Chest Press,Chest,3,14.0,12,reps,
+2026-10-29,Upper Body,Low-to-High Cable Fly,Chest,1,7.5,12,reps,Low-to-high
+2026-10-29,Upper Body,Low-to-High Cable Fly,Chest,2,5.0,12,reps,Low-to-high
+2026-10-29,Upper Body,Low-to-High Cable Fly,Chest,3,5.0,12,reps,Low-to-high
+2026-10-29,Upper Body,Cable Fly (Lower Chest),Chest,1,7.5,12,reps,Low-to-high
+2026-10-29,Upper Body,Cable Fly (Lower Chest),Chest,2,7.5,12,reps,Low-to-high
+2026-10-29,Upper Body,Cable Fly (Lower Chest),Chest,3,5.0,12,reps,Low-to-high
+2026-10-29,Upper Body,Cable Fly (Mid Chest),Chest,1,7.5,12,reps,Low-to-high
+2026-10-29,Upper Body,Cable Fly (Mid Chest),Chest,2,5.0,12,reps,Low-to-high
+2026-10-29,Upper Body,Cable Fly (Mid Chest),Chest,3,5.0,12,reps,Low-to-high
+2026-10-29,Upper Body,Chest-supported T-bar Row,Back,1,20.0,12,reps,
+2026-10-29,Upper Body,Chest-supported T-bar Row,Back,2,15.0,12,reps,
+2026-10-29,Upper Body,Chest-supported T-bar Row,Back,3,10.0,12,reps,
+2026-10-29,Upper Body,Single-arm Cable Lat Pulldown,Back,1,15.0,12,reps,
+2026-10-29,Upper Body,Single-arm Cable Lat Pulldown,Back,2,17.5,12,reps,
+2026-10-29,Upper Body,Single-arm Cable Lat Pulldown,Back,3,21.0,12,reps,
+2026-10-29,Upper Body,Seated Cable Row,Back,1,33.0,10,reps,
+2026-10-29,Upper Body,Seated Cable Row,Back,2,40.0,10,reps,
+2026-10-29,Upper Body,Seated Cable Row,Back,3,47.0,8,reps,
+2026-10-29,Upper Body,Straight-arm Cable Pullover,Back,1,15.0,12,reps,
+2026-10-29,Upper Body,Straight-arm Cable Pullover,Back,2,12.5,12,reps,
+2026-10-29,Upper Body,Straight-arm Cable Pullover,Back,3,12.5,12,reps,
+2026-10-29,Upper Body,Reverse Pec Deck,Shoulders,1,26.0,12,reps,
+2026-10-29,Upper Body,Reverse Pec Deck,Shoulders,2,19.0,12,reps,
+2026-10-29,Upper Body,Reverse Pec Deck,Shoulders,3,19.0,10,reps,
+2026-10-30,Shoulders + Arms,Shoulder Press,Shoulders,1,15.0,12,reps,
+2026-10-30,Shoulders + Arms,Shoulder Press,Shoulders,2,12.5,12,reps,
+2026-10-30,Shoulders + Arms,Shoulder Press,Shoulders,3,12.5,12,reps,
+2026-10-30,Shoulders + Arms,Cable Lateral Raise,Shoulders,1,7.5,8,reps,
+2026-10-30,Shoulders + Arms,Cable Lateral Raise,Shoulders,2,5.0,12,reps,
+2026-10-30,Shoulders + Arms,Cable Lateral Raise,Shoulders,3,5.0,8,reps,
+2026-10-30,Shoulders + Arms,Rear Delt Fly,Shoulders,1,26.0,12,reps,
+2026-10-30,Shoulders + Arms,Rear Delt Fly,Shoulders,2,26.0,12,reps,
+2026-10-30,Shoulders + Arms,Rear Delt Fly,Shoulders,3,26.0,12,reps,
+2026-10-30,Shoulders + Arms,Triceps Pushdown,Triceps,1,15.0,12,reps,
+2026-10-30,Shoulders + Arms,Triceps Pushdown,Triceps,2,12.5,12,reps,
+2026-10-30,Shoulders + Arms,Triceps Pushdown,Triceps,3,7.5,12,reps,
+2026-10-30,Shoulders + Arms,Overhead Cable Triceps Extension,Triceps,1,7.5,12,reps,
+2026-10-30,Shoulders + Arms,Overhead Cable Triceps Extension,Triceps,2,7.5,12,reps,
+2026-10-30,Shoulders + Arms,Overhead Cable Triceps Extension,Triceps,3,5.0,12,reps,
+2026-10-30,Shoulders + Arms,Dumbbell Curl,Biceps,1,10.0,12,reps,
+2026-10-30,Shoulders + Arms,Dumbbell Curl,Biceps,2,7.5,12,reps,
+2026-10-30,Shoulders + Arms,Dumbbell Curl,Biceps,3,10.0,6,reps,
+2026-10-30,Shoulders + Arms,Dumbbell Curl,Biceps,4,7.5,8,reps,
+2026-10-30,Shoulders + Arms,Single-arm Preacher Curl,Biceps,1,7.5,12,reps,
+2026-10-30,Shoulders + Arms,Single-arm Preacher Curl,Biceps,2,7.5,12,reps,
+2026-10-30,Shoulders + Arms,Single-arm Preacher Curl,Biceps,3,7.5,12,reps,
+2026-10-30,Shoulders + Arms,Hammer Curl,Biceps,1,10.0,8,reps,
+2026-10-30,Shoulders + Arms,Hammer Curl,Biceps,2,10.0,8,reps,
+2026-10-30,Shoulders + Arms,Hammer Curl,Biceps,3,7.5,12,reps,
+2026-10-31,Legs + Core,Dumbbell Squat,Legs,1,30.0,12,reps,
+2026-10-31,Legs + Core,Dumbbell Squat,Legs,2,30.0,12,reps,
+2026-10-31,Legs + Core,Dumbbell Squat,Legs,3,27.5,12,reps,
+2026-10-31,Legs + Core,Leg Press,Legs,1,75.0,8,reps,"Wide foot, inner thigh"
+2026-10-31,Legs + Core,Leg Press,Legs,2,75.0,8,reps,"Close top, quads"
+2026-10-31,Legs + Core,Leg Press,Legs,3,75.0,8,reps,"Close bottom, quads/glutes"
+2026-10-31,Legs + Core,Leg Press,Legs,4,75.0,8,reps,"Close middle, something"
+2026-10-31,Legs + Core,Leg Press,Legs,5,55.0,8,reps,"Wide foot, inner thigh"
+2026-10-31,Legs + Core,Leg Press,Legs,6,55.0,8,reps,"Close top, quads"
+2026-10-31,Legs + Core,Leg Press,Legs,7,55.0,8,reps,"Close bottom, quads/glutes"
+2026-10-31,Legs + Core,Leg Press,Legs,8,55.0,8,reps,"Close middle, something"
+2026-10-31,Legs + Core,Leg Extension,Legs,1,55.0,12,reps,
+2026-10-31,Legs + Core,Leg Extension,Legs,2,55.0,12,reps,
+2026-10-31,Legs + Core,Leg Extension,Legs,3,55.0,12,reps,
+2026-10-31,Legs + Core,Leg Curl,Legs,1,46.0,12,reps,
+2026-10-31,Legs + Core,Leg Curl,Legs,2,32.0,12,reps,
+2026-10-31,Legs + Core,Leg Curl,Legs,3,32.0,12,reps,
+2026-10-31,Legs + Core,Calf Raise,Legs,1,40.0,12,reps,
+2026-10-31,Legs + Core,Calf Raise,Legs,2,40.0,12,reps,
+2026-10-31,Legs + Core,Calf Raise,Legs,3,40.0,12,reps,
+2026-11-02,Push,Incline Dumbbell Press,Chest,1,12.5,12,reps,
+2026-11-02,Push,Incline Dumbbell Press,Chest,2,12.5,12,reps,
+2026-11-02,Push,Incline Dumbbell Press,Chest,3,10.0,12,reps,
+2026-11-02,Push,Machine Chest Press,Chest,1,35.0,12,reps,
+2026-11-02,Push,Machine Chest Press,Chest,2,25.0,12,reps,
+2026-11-02,Push,Machine Chest Press,Chest,3,25.0,12,reps,
+2026-11-02,Push,Low-to-High Cable Fly,Chest,1,5.0,12,reps,Low-to-high
+2026-11-02,Push,Low-to-High Cable Fly,Chest,2,5.0,12,reps,Low-to-high
+2026-11-02,Push,Low-to-High Cable Fly,Chest,3,2.5,12,reps,Low-to-high
+2026-11-02,Push,Cable Fly (Lower Chest),Chest,1,7.5,12,reps,Low-to-high
+2026-11-02,Push,Cable Fly (Lower Chest),Chest,2,7.5,12,reps,Low-to-high
+2026-11-02,Push,Cable Fly (Lower Chest),Chest,3,7.5,12,reps,Low-to-high
+2026-11-02,Push,Cable Fly (Mid Chest),Chest,1,7.5,12,reps,Low-to-high
+2026-11-02,Push,Cable Fly (Mid Chest),Chest,2,5.0,12,reps,Low-to-high
+2026-11-02,Push,Cable Fly (Mid Chest),Chest,3,5.0,12,reps,Low-to-high
+2026-11-02,Push,Cable Lateral Raise,Shoulders,1,5.0,12,reps,
+2026-11-02,Push,Cable Lateral Raise,Shoulders,2,5.0,12,reps,
+2026-11-02,Push,Cable Lateral Raise,Shoulders,3,2.5,24,reps,
+2026-11-02,Push,Shoulder Press,Shoulders,1,14.0,10,reps,
+2026-11-02,Push,Shoulder Press,Shoulders,2,12.5,10,reps,
+2026-11-02,Push,Shoulder Press,Shoulders,3,12.5,12,reps,
+2026-11-02,Push,Triceps Pushdown,Triceps,1,10.0,16,reps,
+2026-11-02,Push,Triceps Pushdown,Triceps,2,12.5,12,reps,
+2026-11-02,Push,Triceps Pushdown,Triceps,3,10.0,10,reps,
+2026-11-02,Push,Overhead Cable Triceps Extension,Triceps,1,7.5,12,reps,
+2026-11-02,Push,Overhead Cable Triceps Extension,Triceps,2,5.0,12,reps,
+2026-11-02,Push,Overhead Cable Triceps Extension,Triceps,3,5.0,12,reps,
+2026-11-03,Pull,Single-arm Cable Lat Pulldown,Back,1,21.0,12,reps,
+2026-11-03,Pull,Single-arm Cable Lat Pulldown,Back,2,21.0,12,reps,
+2026-11-03,Pull,Single-arm Cable Lat Pulldown,Back,3,17.5,12,reps,
+2026-11-03,Pull,Chest-supported T-bar Row,Back,1,20.0,12,reps,
+2026-11-03,Pull,Chest-supported T-bar Row,Back,2,25.0,8,reps,
+2026-11-03,Pull,Chest-supported T-bar Row,Back,3,20.0,8,reps,
+2026-11-03,Pull,Lat Pulldown,Back,1,47.0,12,reps,
+2026-11-03,Pull,Lat Pulldown,Back,2,40.0,12,reps,
+2026-11-03,Pull,Lat Pulldown,Back,3,33.0,12,reps,
+2026-11-03,Pull,Straight-arm Cable Pullover,Back,1,17.5,10,reps,
+2026-11-03,Pull,Straight-arm Cable Pullover,Back,2,15.0,10,reps,
+2026-11-03,Pull,Straight-arm Cable Pullover,Back,3,12.5,12,reps,
+2026-11-03,Pull,Reverse Pec Deck,Shoulders,1,26.0,12,reps,
+2026-11-03,Pull,Reverse Pec Deck,Shoulders,2,19.0,12,reps,
+2026-11-03,Pull,Reverse Pec Deck,Shoulders,3,19.0,10,reps,
+2026-11-03,Pull,Preacher Curl,Biceps,1,7.5,8,reps,
+2026-11-03,Pull,Preacher Curl,Biceps,2,7.5,8,reps,
+2026-11-03,Pull,Preacher Curl,Biceps,3,5.0,12,reps,
+2026-11-03,Pull,Dumbbell Curl,Biceps,1,10.0,8,reps,Incline (logged 'I')
+2026-11-03,Pull,Dumbbell Curl,Biceps,2,10.0,8,reps,Normal (logged 'N')
+2026-11-03,Pull,Dumbbell Curl,Biceps,3,7.5,12,reps,Normal (logged 'N')
+2026-11-03,Pull,Dumbbell Curl,Biceps,4,10.0,10,reps,Normal (logged 'N')
+2026-11-03,Pull,Hammer Curl,Biceps,1,10.0,8,reps,
+2026-11-03,Pull,Hammer Curl,Biceps,2,7.5,12,reps,
+2026-11-03,Pull,Hammer Curl,Biceps,3,7.5,12,reps,
+2026-11-05,Legs,Barbell Squat,Legs,1,25.0,12,reps,
+2026-11-05,Legs,Barbell Squat,Legs,2,30.0,12,reps,
+2026-11-05,Legs,Barbell Squat,Legs,3,30.0,12,reps,
+2026-11-05,Legs,Leg Press,Legs,1,75.0,8,reps,"Wide foot, inner thigh"
+2026-11-05,Legs,Leg Press,Legs,2,75.0,8,reps,"Close top, quads"
+2026-11-05,Legs,Leg Press,Legs,3,75.0,8,reps,"Close bottom, quads/glutes"
+2026-11-05,Legs,Leg Press,Legs,4,75.0,8,reps,"Close middle, something"
+2026-11-05,Legs,Leg Press,Legs,5,65.0,8,reps,"Wide foot, inner thigh"
+2026-11-05,Legs,Leg Press,Legs,6,65.0,8,reps,"Close top, quads"
+2026-11-05,Legs,Leg Press,Legs,7,65.0,8,reps,"Close bottom, quads/glutes"
+2026-11-05,Legs,Leg Press,Legs,8,65.0,8,reps,"Close middle, something"
+2026-11-05,Legs,Leg Curl,Legs,1,46.0,12,reps,
+2026-11-05,Legs,Leg Curl,Legs,2,32.0,12,reps,
+2026-11-05,Legs,Leg Curl,Legs,3,32.0,12,reps,
+2026-11-05,Legs,Leg Extension,Legs,1,45.0,12,reps,
+2026-11-05,Legs,Leg Extension,Legs,2,45.0,12,reps,
+2026-11-05,Legs,Leg Extension,Legs,3,45.0,12,reps,
+2026-11-05,Legs,Calf Raise,Legs,1,40.0,12,reps,
+2026-11-05,Legs,Calf Raise,Legs,2,40.0,12,reps,
+2026-11-05,Legs,Calf Raise,Legs,3,50.0,12,reps,
+2026-11-06,Upper Body,Incline Chest Press,Chest,1,15.0,12,reps,
+2026-11-06,Upper Body,Incline Chest Press,Chest,2,12.5,12,reps,
+2026-11-06,Upper Body,Incline Chest Press,Chest,3,12.5,12,reps,
+2026-11-06,Upper Body,Low-to-High Cable Fly,Chest,1,7.5,12,reps,Low-to-high
+2026-11-06,Upper Body,Low-to-High Cable Fly,Chest,2,5.0,12,reps,Low-to-high
+2026-11-06,Upper Body,Low-to-High Cable Fly,Chest,3,5.0,12,reps,Low-to-high
+2026-11-06,Upper Body,Cable Fly (Lower Chest),Chest,1,8.75,12,reps,Low-to-high
+2026-11-06,Upper Body,Cable Fly (Lower Chest),Chest,2,6.25,12,reps,Low-to-high
+2026-11-06,Upper Body,Cable Fly (Lower Chest),Chest,3,6.25,12,reps,Low-to-high
+2026-11-06,Upper Body,Cable Fly (Mid Chest),Chest,1,8.75,12,reps,Low-to-high
+2026-11-06,Upper Body,Cable Fly (Mid Chest),Chest,2,6.25,12,reps,Low-to-high
+2026-11-06,Upper Body,Cable Fly (Mid Chest),Chest,3,6.25,12,reps,Low-to-high
+2026-11-06,Upper Body,Chest-supported T-bar Row,Back,1,20.0,12,reps,
+2026-11-06,Upper Body,Chest-supported T-bar Row,Back,2,20.0,12,reps,
+2026-11-06,Upper Body,Chest-supported T-bar Row,Back,3,17.5,12,reps,
+2026-11-06,Upper Body,Single-arm Cable Lat Pulldown,Back,1,21.0,12,reps,Pull arm same leg down
+2026-11-06,Upper Body,Single-arm Cable Lat Pulldown,Back,2,21.0,12,reps,Pull arm same leg down
+2026-11-06,Upper Body,Single-arm Cable Lat Pulldown,Back,3,17.5,12,reps,Pull arm same leg down
+2026-11-06,Upper Body,Seated Cable Row,Back,1,47.0,12,reps,
+2026-11-06,Upper Body,Seated Cable Row,Back,2,40.0,12,reps,
+2026-11-06,Upper Body,Seated Cable Row,Back,3,40.0,12,reps,
+2026-11-06,Upper Body,Straight-arm Cable Pullover,Back,1,15.0,10,reps,
+2026-11-06,Upper Body,Straight-arm Cable Pullover,Back,2,12.5,10,reps,
+2026-11-06,Upper Body,Straight-arm Cable Pullover,Back,3,10.0,12,reps,
+2026-11-06,Upper Body,Reverse Pec Deck,Shoulders,1,26.0,10,reps,
+2026-11-06,Upper Body,Reverse Pec Deck,Shoulders,2,19.0,10,reps,
+2026-11-06,Upper Body,Reverse Pec Deck,Shoulders,3,19.0,12,reps,
+2026-11-07,Shoulders + Arms,Shoulder Press,Shoulders,1,15.0,12,reps,
+2026-11-07,Shoulders + Arms,Shoulder Press,Shoulders,2,15.0,8,reps,
+2026-11-07,Shoulders + Arms,Shoulder Press,Shoulders,3,12.5,12,reps,
+2026-11-07,Shoulders + Arms,Cable Lateral Raise,Shoulders,1,7.5,8,reps,
+2026-11-07,Shoulders + Arms,Cable Lateral Raise,Shoulders,2,5.0,12,reps,
+2026-11-07,Shoulders + Arms,Cable Lateral Raise,Shoulders,3,5.0,12,reps,
+2026-11-07,Shoulders + Arms,Rear Delt Fly,Shoulders,1,26.0,12,reps,
+2026-11-07,Shoulders + Arms,Rear Delt Fly,Shoulders,2,26.0,12,reps,
+2026-11-07,Shoulders + Arms,Rear Delt Fly,Shoulders,3,26.0,12,reps,
+2026-11-07,Shoulders + Arms,Triceps Pushdown,Triceps,1,15.0,8,reps,
+2026-11-07,Shoulders + Arms,Triceps Pushdown,Triceps,2,10.0,12,reps,
+2026-11-07,Shoulders + Arms,Triceps Pushdown,Triceps,3,7.5,16,reps,
+2026-11-07,Shoulders + Arms,Overhead Cable Triceps Extension,Triceps,1,7.5,12,reps,
+2026-11-07,Shoulders + Arms,Overhead Cable Triceps Extension,Triceps,2,7.5,12,reps,
+2026-11-07,Shoulders + Arms,Overhead Cable Triceps Extension,Triceps,3,5.0,12,reps,
+2026-11-07,Shoulders + Arms,Dumbbell Curl,Biceps,1,10.0,12,reps,
+2026-11-07,Shoulders + Arms,Dumbbell Curl,Biceps,2,10.0,8,reps,
+2026-11-07,Shoulders + Arms,Dumbbell Curl,Biceps,3,10.0,8,reps,
+2026-11-07,Shoulders + Arms,Dumbbell Curl,Biceps,4,10.0,8,reps,
+2026-11-07,Shoulders + Arms,Single-arm Preacher Curl,Biceps,1,7.5,12,reps,
+2026-11-07,Shoulders + Arms,Single-arm Preacher Curl,Biceps,2,7.5,12,reps,
+2026-11-07,Shoulders + Arms,Single-arm Preacher Curl,Biceps,3,7.5,12,reps,
+2026-11-07,Shoulders + Arms,Hammer Curl,Biceps,1,10.0,8,reps,
+2026-11-07,Shoulders + Arms,Hammer Curl,Biceps,2,10.0,8,reps,
+2026-11-07,Shoulders + Arms,Hammer Curl,Biceps,3,7.5,12,reps,
+2026-11-09,Push,Incline Dumbbell Press,Chest,1,15.0,12,reps,
+2026-11-09,Push,Incline Dumbbell Press,Chest,2,15.0,10,reps,
+2026-11-09,Push,Incline Dumbbell Press,Chest,3,12.5,12,reps,
+2026-11-09,Push,Low-to-High Cable Fly,Chest,1,5.0,12,reps,Low-to-high
+2026-11-09,Push,Low-to-High Cable Fly,Chest,2,5.0,12,reps,Low-to-high
+2026-11-09,Push,Low-to-High Cable Fly,Chest,3,5.0,12,reps,Low-to-high
+2026-11-09,Push,High-to-Low Cable Fly,Chest,1,7.5,12,reps,High-to-low
+2026-11-09,Push,High-to-Low Cable Fly,Chest,2,5.0,12,reps,High-to-low
+2026-11-09,Push,High-to-Low Cable Fly,Chest,3,5.0,12,reps,High-to-low
+2026-11-09,Push,High-to-Low Cable Fly,Chest,4,7.5,12,reps,High-to-low
+2026-11-09,Push,High-to-Low Cable Fly,Chest,5,7.5,12,reps,High-to-low
+2026-11-09,Push,High-to-Low Cable Fly,Chest,6,7.5,12,reps,High-to-low
+2026-11-09,Push,Shoulder Press,Shoulders,1,15.0,8,reps,
+2026-11-09,Push,Shoulder Press,Shoulders,2,12.5,10,reps,
+2026-11-09,Push,Shoulder Press,Shoulders,3,10.0,12,reps,
+2026-11-09,Push,Cable Lateral Raise,Shoulders,1,5.0,12,reps,
+2026-11-09,Push,Cable Lateral Raise,Shoulders,2,5.0,12,reps,
+2026-11-09,Push,Cable Lateral Raise,Shoulders,3,5.0,12,reps,
+2026-11-09,Push,Triceps Pushdown,Triceps,1,10.0,12,reps,
+2026-11-09,Push,Triceps Pushdown,Triceps,2,10.0,12,reps,
+2026-11-09,Push,Triceps Pushdown,Triceps,3,10.0,12,reps,
+2026-11-09,Push,Overhead Cable Triceps Extension,Triceps,1,7.5,12,reps,
+2026-11-09,Push,Overhead Cable Triceps Extension,Triceps,2,7.5,12,reps,
+2026-11-09,Push,Overhead Cable Triceps Extension,Triceps,3,5.0,12,reps,
+2026-11-10,Pull,Single-arm Cable Lat Pulldown,Back,1,21.0,12,reps,Pull arm same leg down
+2026-11-10,Pull,Single-arm Cable Lat Pulldown,Back,2,21.0,12,reps,Pull arm same leg down
+2026-11-10,Pull,Single-arm Cable Lat Pulldown,Back,3,21.0,12,reps,Pull arm same leg down
+2026-11-10,Pull,Chest-supported T-bar Row,Back,1,20.0,12,reps,
+2026-11-10,Pull,Chest-supported T-bar Row,Back,2,20.0,12,reps,
+2026-11-10,Pull,Chest-supported T-bar Row,Back,3,20.0,12,reps,
+2026-11-10,Pull,Lat Pulldown,Back,1,40.0,12,reps,
+2026-11-10,Pull,Lat Pulldown,Back,2,47.0,12,reps,
+2026-11-10,Pull,Lat Pulldown,Back,3,40.0,12,reps,
+2026-11-10,Pull,Straight-arm Cable Pullover,Back,1,15.0,12,reps,
+2026-11-10,Pull,Straight-arm Cable Pullover,Back,2,15.0,12,reps,
+2026-11-10,Pull,Straight-arm Cable Pullover,Back,3,15.0,12,reps,
+2026-11-10,Pull,Reverse Pec Deck,Shoulders,1,26.0,12,reps,
+2026-11-10,Pull,Reverse Pec Deck,Shoulders,2,26.0,12,reps,
+2026-11-10,Pull,Reverse Pec Deck,Shoulders,3,26.0,12,reps,
+2026-11-10,Pull,Preacher Curl,Biceps,1,7.5,8,reps,
+2026-11-10,Pull,Preacher Curl,Biceps,2,7.5,8,reps,
+2026-11-10,Pull,Preacher Curl,Biceps,3,5.0,12,reps,
+2026-11-10,Pull,Dumbbell Curl,Biceps,1,10.0,10,reps,Normal (logged 'N')
+2026-11-10,Pull,Dumbbell Curl,Biceps,2,10.0,8,reps,Normal (logged 'N')
+2026-11-10,Pull,Dumbbell Curl,Biceps,3,10.0,6,reps,Normal (logged 'N')
+2026-11-10,Pull,Dumbbell Curl,Biceps,4,10.0,8,reps,Normal (logged 'N')
+2026-11-10,Pull,Hammer Curl,Biceps,1,10.0,8,reps,
+2026-11-10,Pull,Hammer Curl,Biceps,2,10.0,8,reps,
+2026-11-10,Pull,Hammer Curl,Biceps,3,10.0,8,reps,
+2026-11-11,Legs,Barbell Squat,Legs,1,35.0,8,reps,
+2026-11-11,Legs,Barbell Squat,Legs,2,30.0,8,reps,
+2026-11-11,Legs,Barbell Squat,Legs,3,30.0,10,reps,
+2026-11-11,Legs,Leg Press,Legs,1,75.0,8,reps,"Wide foot, inner thigh"
+2026-11-11,Legs,Leg Press,Legs,2,75.0,8,reps,"Close top, quads"
+2026-11-11,Legs,Leg Press,Legs,3,75.0,8,reps,"Close bottom, quads/glutes"
+2026-11-11,Legs,Leg Press,Legs,4,75.0,8,reps,"Close middle, something"
+2026-11-11,Legs,Leg Press,Legs,5,75.0,8,reps,"Wide foot, inner thigh"
+2026-11-11,Legs,Leg Press,Legs,6,75.0,8,reps,"Close top, quads"
+2026-11-11,Legs,Leg Press,Legs,7,75.0,8,reps,"Close bottom, quads/glutes"
+2026-11-11,Legs,Leg Press,Legs,8,75.0,8,reps,"Close middle, something"
+2026-11-11,Legs,Leg Curl,Legs,1,39.0,12,reps,
+2026-11-11,Legs,Leg Curl,Legs,2,39.0,12,reps,
+2026-11-11,Legs,Leg Curl,Legs,3,39.0,12,reps,
+2026-11-11,Legs,Leg Extension,Legs,1,55.0,12,reps,
+2026-11-11,Legs,Leg Extension,Legs,2,55.0,12,reps,
+2026-11-11,Legs,Leg Extension,Legs,3,55.0,12,reps,
+2026-11-11,Legs,Calf Raise,Legs,1,50.0,12,reps,
+2026-11-11,Legs,Calf Raise,Legs,2,50.0,12,reps,
+2026-11-11,Legs,Calf Raise,Legs,3,50.0,12,reps,
+2026-11-12,Upper Body,Incline Chest Press,Chest,1,12.5,12,reps,
+2026-11-12,Upper Body,Incline Chest Press,Chest,2,15.0,10,reps,
+2026-11-12,Upper Body,Incline Chest Press,Chest,3,12.5,12,reps,
+2026-11-12,Upper Body,Low-to-High Cable Fly,Chest,1,6.25,12,reps,Low-to-high
+2026-11-12,Upper Body,Low-to-High Cable Fly,Chest,2,3.75,12,reps,Low-to-high
+2026-11-12,Upper Body,Low-to-High Cable Fly,Chest,3,3.75,12,reps,Low-to-high
+2026-11-12,Upper Body,Cable Fly (Lower Chest),Chest,1,8.75,12,reps,Low-to-high
+2026-11-12,Upper Body,Cable Fly (Lower Chest),Chest,2,8.25,12,reps,Low-to-high
+2026-11-12,Upper Body,Cable Fly (Lower Chest),Chest,3,8.25,12,reps,Low-to-high
+2026-11-12,Upper Body,Cable Fly (Mid Chest),Chest,1,8.75,12,reps,Low-to-high
+2026-11-12,Upper Body,Cable Fly (Mid Chest),Chest,2,8.25,12,reps,Low-to-high
+2026-11-12,Upper Body,Cable Fly (Mid Chest),Chest,3,8.25,12,reps,Low-to-high
+2026-11-12,Upper Body,Chest-supported T-bar Row,Back,1,20.0,12,reps,
+2026-11-12,Upper Body,Chest-supported T-bar Row,Back,2,15.0,12,reps,
+2026-11-12,Upper Body,Chest-supported T-bar Row,Back,3,10.0,12,reps,
+2026-11-12,Upper Body,Single-arm Cable Lat Pulldown,Back,1,24.5,8,reps,Pull arm same leg down
+2026-11-12,Upper Body,Single-arm Cable Lat Pulldown,Back,2,24.5,8,reps,Pull arm same leg down
+2026-11-12,Upper Body,Single-arm Cable Lat Pulldown,Back,3,21.0,12,reps,Pull arm same leg down
+2026-11-12,Upper Body,Seated Cable Row,Back,1,47.0,12,reps,
+2026-11-12,Upper Body,Seated Cable Row,Back,2,47.0,12,reps,
+2026-11-12,Upper Body,Seated Cable Row,Back,3,47.0,12,reps,
+2026-11-12,Upper Body,Straight-arm Cable Pullover,Back,1,12.5,12,reps,
+2026-11-12,Upper Body,Straight-arm Cable Pullover,Back,2,15.0,12,reps,
+2026-11-12,Upper Body,Straight-arm Cable Pullover,Back,3,15.0,12,reps,
+2026-11-12,Upper Body,Reverse Pec Deck,Shoulders,1,19.0,12,reps,
+2026-11-12,Upper Body,Reverse Pec Deck,Shoulders,2,26.0,12,reps,
+2026-11-12,Upper Body,Reverse Pec Deck,Shoulders,3,33.0,12,reps,
+2026-11-13,Shoulders + Arms,Shoulder Press,Shoulders,1,15.0,10,reps,
+2026-11-13,Shoulders + Arms,Shoulder Press,Shoulders,2,12.5,10,reps,
+2026-11-13,Shoulders + Arms,Shoulder Press,Shoulders,3,12.5,10,reps,
+2026-11-13,Shoulders + Arms,Cable Lateral Raise,Shoulders,1,5.0,12,reps,
+2026-11-13,Shoulders + Arms,Cable Lateral Raise,Shoulders,2,5.0,12,reps,
+2026-11-13,Shoulders + Arms,Cable Lateral Raise,Shoulders,3,5.0,12,reps,
+2026-11-13,Shoulders + Arms,Rear Delt Fly,Shoulders,1,26.0,12,reps,
+2026-11-13,Shoulders + Arms,Rear Delt Fly,Shoulders,2,26.0,12,reps,
+2026-11-13,Shoulders + Arms,Rear Delt Fly,Shoulders,3,19.0,12,reps,
+2026-11-13,Shoulders + Arms,Triceps Pushdown,Triceps,1,15.0,8,reps,Straight bar
+2026-11-13,Shoulders + Arms,Triceps Pushdown,Triceps,2,10.0,10,reps,Straight bar
+2026-11-13,Shoulders + Arms,Triceps Pushdown,Triceps,3,10.0,10,reps,Straight bar
+2026-11-13,Shoulders + Arms,Overhead Cable Triceps Extension,Triceps,1,5.0,12,reps,
+2026-11-13,Shoulders + Arms,Overhead Cable Triceps Extension,Triceps,2,5.0,12,reps,
+2026-11-13,Shoulders + Arms,Overhead Cable Triceps Extension,Triceps,3,5.0,12,reps,
+2026-11-13,Shoulders + Arms,Dumbbell Curl,Biceps,1,10.0,8,reps,
+2026-11-13,Shoulders + Arms,Dumbbell Curl,Biceps,2,10.0,8,reps,
+2026-11-13,Shoulders + Arms,Dumbbell Curl,Biceps,3,7.5,12,reps,
+2026-11-13,Shoulders + Arms,Dumbbell Curl,Biceps,4,7.5,12,reps,
+2026-11-13,Shoulders + Arms,Hammer Curl,Biceps,1,10.0,8,reps,
+2026-11-13,Shoulders + Arms,Hammer Curl,Biceps,2,7.5,12,reps,
+2026-11-13,Shoulders + Arms,Hammer Curl,Biceps,3,7.5,12,reps,
+2026-11-17,Pull,Single-arm Cable Lat Pulldown,Back,1,17.5,12,reps,Pull arm same leg down
+2026-11-17,Pull,Single-arm Cable Lat Pulldown,Back,2,17.5,12,reps,Pull arm same leg down
+2026-11-17,Pull,Single-arm Cable Lat Pulldown,Back,3,21.0,12,reps,Pull arm same leg down
+2026-11-17,Pull,Chest-supported T-bar Row,Back,1,15.0,12,reps,
+2026-11-17,Pull,Chest-supported T-bar Row,Back,2,15.0,12,reps,
+2026-11-17,Pull,Chest-supported T-bar Row,Back,3,10.0,12,reps,
+2026-11-17,Pull,Lat Pulldown,Back,1,40.0,12,reps,
+2026-11-17,Pull,Lat Pulldown,Back,2,40.0,12,reps,
+2026-11-17,Pull,Lat Pulldown,Back,3,40.0,12,reps,
+2026-11-17,Pull,Straight-arm Cable Pullover,Back,1,15.0,12,reps,
+2026-11-17,Pull,Straight-arm Cable Pullover,Back,2,15.0,12,reps,
+2026-11-17,Pull,Straight-arm Cable Pullover,Back,3,15.0,12,reps,
+2026-11-17,Pull,Reverse Pec Deck,Shoulders,1,26.0,12,reps,
+2026-11-17,Pull,Reverse Pec Deck,Shoulders,2,26.0,10,reps,
+2026-11-17,Pull,Reverse Pec Deck,Shoulders,3,19.0,12,reps,
+2026-11-17,Pull,Preacher Curl,Biceps,1,7.5,12,reps,
+2026-11-17,Pull,Preacher Curl,Biceps,2,7.5,10,reps,
+2026-11-17,Pull,Preacher Curl,Biceps,3,7.5,10,reps,
+2026-11-17,Pull,Dumbbell Curl,Biceps,1,10.0,10,reps,Normal (logged 'N')
+2026-11-17,Pull,Dumbbell Curl,Biceps,2,10.0,8,reps,Normal (logged 'N')
+2026-11-17,Pull,Dumbbell Curl,Biceps,3,7.5,12,reps,Normal (logged 'N')
+2026-11-17,Pull,Dumbbell Curl,Biceps,4,10.0,6,reps,Normal (logged 'N')
+2026-11-17,Pull,Hammer Curl,Biceps,1,10.0,8,reps,
+2026-11-17,Pull,Hammer Curl,Biceps,2,7.5,12,reps,
+2026-11-17,Pull,Hammer Curl,Biceps,3,7.5,12,reps,
+2026-11-18,Legs,Barbell Squat,Legs,1,45.0,10,reps,
+2026-11-18,Legs,Barbell Squat,Legs,2,45.0,10,reps,
+2026-11-18,Legs,Barbell Squat,Legs,3,45.0,10,reps,
+2026-11-18,Legs,Leg Press,Legs,1,65.0,8,reps,"Wide foot, inner thigh"
+2026-11-18,Legs,Leg Press,Legs,2,65.0,8,reps,"Close top, quads"
+2026-11-18,Legs,Leg Press,Legs,3,65.0,8,reps,"Close bottom, quads/glutes"
+2026-11-18,Legs,Leg Press,Legs,4,65.0,8,reps,"Close middle, something"
+2026-11-18,Legs,Leg Press,Legs,5,65.0,8,reps,"Wide foot, inner thigh"
+2026-11-18,Legs,Leg Press,Legs,6,65.0,8,reps,"Close top, quads"
+2026-11-18,Legs,Leg Press,Legs,7,65.0,8,reps,"Close bottom, quads/glutes"
+2026-11-18,Legs,Leg Press,Legs,8,65.0,8,reps,"Close middle, something"
+2026-11-18,Legs,Leg Curl,Legs,1,46.0,12,reps,
+2026-11-18,Legs,Leg Curl,Legs,2,39.0,12,reps,
+2026-11-18,Legs,Leg Curl,Legs,3,39.0,12,reps,
+2026-11-18,Legs,Leg Extension,Legs,1,55.0,12,reps,
+2026-11-18,Legs,Leg Extension,Legs,2,65.0,8,reps,
+2026-11-18,Legs,Leg Extension,Legs,3,55.0,12,reps,
+2026-11-18,Legs,Calf Raise,Legs,1,50.0,12,reps,
+2026-11-18,Legs,Calf Raise,Legs,2,50.0,12,reps,
+2026-11-18,Legs,Calf Raise,Legs,3,50.0,12,reps,
