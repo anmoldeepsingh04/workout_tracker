@@ -4,3 +4,4 @@ __pycache__/
 data/workouts.db
 .DS_Store
 data/workouts.db.bak-*
+.pytest_cache/

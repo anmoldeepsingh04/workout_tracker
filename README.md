@@ -15,7 +15,7 @@ Stack: FastAPI + SQLAlchemy, with SQLite (`data/workouts.db`) by default. Set `D
 ```bash
 python3 -m venv .venv
 .venv/bin/pip install -r requirements-dev.txt
-.venv/bin/python scripts/import_history.py      # load past workouts (safe to re-run)
+.venv/bin/python scripts/import_history.py      # first run only: load past workouts (safe to re-run)
 .venv/bin/uvicorn app.main:app --reload         # http://127.0.0.1:8000
 ```
 
@@ -23,19 +23,20 @@ Tests: `.venv/bin/python -m pytest`
 
 ## Data
 
+Workouts are logged through the web interface and stored in `data/workouts.db`, which is the file to back up.
+
 | File | What it is |
 |---|---|
-| `data/_chat.txt` | Original WhatsApp log |
-| `data/workout_history.xlsx` | Cleaned history: Workouts, Sets and Exercises sheets |
-| `scripts/parse_chat.py` | Parses the chat (name clean-up, drop sets, `12x3`, lb → kg) |
-| `scripts/export_clean.py` | Chat → `workout_history.xlsx` |
-| `scripts/import_history.py` | `workout_history.xlsx` → database (`--replace` to overwrite) |
+| `data/workouts.db` | The database with all logged workouts (not committed to git) |
+| `data/workout_history.xlsx` | Workouts from Sep to Nov 2026, from before the app existed |
+| `scripts/import_history.py` | Loads `workout_history.xlsx` into a database. Needed once when setting up a new database (e.g. when deploying), then both files can be deleted |
 
 ## API
 
 | Method | Path | Purpose |
 |---|---|---|
-| GET | `/api/routines` | Split days with their exercises |
+| GET | `/api/routines` | Split days with their exercises, planned sets × reps and finisher |
+| GET | `/api/plan` | Plan-wide info (finisher stretching note) |
 | GET | `/api/exercises` | Exercise catalogue |
 | GET | `/api/last?names=…&before=YYYY-MM-DD` | Most recent sets per exercise |
 | GET | `/api/workouts` | Workout summaries (newest first) |
