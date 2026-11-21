@@ -7,18 +7,30 @@ class ExerciseOut(BaseModel):
     id: int
     name: str
     muscle_group: str | None = None
+    equipment: str | None = None
+    kind: str | None = None
+    unit: str = "reps"
+
+
+class RoutineItemOut(ExerciseOut):
+    sets: int | None = None
+    target: str | None = None
+    note: str | None = None
+    section: str = "main"
 
 
 class RoutineOut(BaseModel):
     id: int
-    day_of_week: int
+    position: int
     name: str
-    exercises: list[ExerciseOut]
+    focus: str | None = None
+    kind: str
+    exercises: list[RoutineItemOut]
 
 
 class SetIn(BaseModel):
     weight: float = Field(ge=0, le=1000)
-    reps: int = Field(ge=1, le=500)
+    reps: int = Field(ge=1, le=3600)  # reps, or seconds for timed exercises
     note: str | None = Field(default=None, max_length=200)
 
 
@@ -45,6 +57,7 @@ class ExerciseEntryOut(BaseModel):
     exercise_id: int
     name: str
     muscle_group: str | None = None
+    unit: str = "reps"
     sets: list[SetOut]
 
 

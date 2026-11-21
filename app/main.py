@@ -11,8 +11,9 @@ from sqlalchemy.orm import Session
 from . import models  # noqa: F401  (register tables)
 from .db import Base, SessionLocal, engine, get_db
 from .models import Exercise, Routine, Workout, WorkoutSet
-from .schemas import (ExerciseEntryOut, ExerciseOut, LastPerformance, RoutineOut, SetOut,
-                      WorkoutIn, WorkoutOut, WorkoutSummary)
+from .plan import FINISHER_NOTE
+from .schemas import (ExerciseEntryOut, ExerciseOut, LastPerformance, RoutineItemOut, RoutineOut,
+                      SetOut, WorkoutIn, WorkoutOut, WorkoutSummary)
 from .seed import get_or_create_exercise, seed
 
 STATIC = Path(__file__).resolve().parent / "static"
@@ -39,7 +40,7 @@ def workout_out(w: Workout) -> WorkoutOut:
     for s in w.sets:
         g = groups.setdefault(s.exercise_id, ExerciseEntryOut(
             exercise_id=s.exercise_id, name=s.exercise.name,
-            muscle_group=s.exercise.muscle_group, sets=[]))
+            muscle_group=s.exercise.muscle_group, unit=s.exercise.unit or "reps", sets=[]))
         g.sets.append(SetOut(set_number=s.set_number, weight=s.weight, reps=s.reps, note=s.note))
     return WorkoutOut(id=w.id, date=w.date, routine_id=w.routine_id,
                       routine_name=w.routine.name if w.routine else None,
@@ -62,19 +63,29 @@ def summary(w: Workout) -> WorkoutSummary:
 
 
 # ---------------------------------------------------------------- API
+def exercise_out(e: Exercise) -> dict:
+    return dict(id=e.id, name=e.name, muscle_group=e.muscle_group, equipment=e.equipment,
+                kind=e.kind, unit=e.unit or "reps")
+
+
+@app.get("/api/plan")
+def plan_info():
+    return {"finisher_note": FINISHER_NOTE}
+
+
 @app.get("/api/routines", response_model=list[RoutineOut])
 def list_routines(db: Session = Depends(get_db)):
-    routines = db.scalars(select(Routine).order_by(Routine.day_of_week)).unique().all()
-    return [RoutineOut(id=r.id, day_of_week=r.day_of_week, name=r.name,
-                       exercises=[ExerciseOut(id=i.exercise.id, name=i.exercise.name,
-                                              muscle_group=i.exercise.muscle_group)
+    routines = db.scalars(select(Routine).order_by(Routine.position)).unique().all()
+    return [RoutineOut(id=r.id, position=r.position, name=r.name, focus=r.focus, kind=r.kind,
+                       exercises=[RoutineItemOut(**exercise_out(i.exercise), sets=i.sets,
+                                                 target=i.target, note=i.note, section=i.section)
                                   for i in r.items])
             for r in routines]
 
 
 @app.get("/api/exercises", response_model=list[ExerciseOut])
 def list_exercises(db: Session = Depends(get_db)):
-    return [ExerciseOut(id=e.id, name=e.name, muscle_group=e.muscle_group)
+    return [ExerciseOut(**exercise_out(e))
             for e in db.scalars(select(Exercise).order_by(Exercise.name))]
 
 

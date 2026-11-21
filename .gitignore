@@ -2,3 +2,5 @@
 __pycache__/
 ~$*.xlsx
 data/workouts.db
+.DS_Store
+data/workouts.db.bak-*

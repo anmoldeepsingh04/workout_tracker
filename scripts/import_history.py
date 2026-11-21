@@ -21,6 +21,16 @@ from app.models import Routine, Workout, WorkoutSet  # noqa: E402
 from app.seed import get_or_create_exercise  # noqa: E402
 
 
+def plan_name(exercise, variant):
+    """Map logged cable-fly names onto the plan's names (direction decides the exercise)."""
+    if exercise.startswith("Cable Fly"):
+        if variant == "High-to-low":
+            return "High-to-Low Cable Fly"
+        if exercise == "Cable Fly (Upper Chest)":
+            return "Low-to-High Cable Fly"
+    return exercise
+
+
 def read_sets(path):
     wb = load_workbook(path, read_only=True)
     ws = wb["Sets"]
@@ -34,7 +44,7 @@ def read_sets(path):
         yield {
             "date": d.date() if isinstance(d, dt.datetime) else d,
             "routine": r[idx["Routine"]],
-            "exercise": r[idx["Exercise"]],
+            "exercise": plan_name(r[idx["Exercise"]], r[idx["Variant"]]),
             "weight": float(r[idx["Weight (kg)"]]),
             "reps": int(r[idx["Reps"]]),
             "note": "; ".join(str(x) for x in (r[idx["Variant"]], r[idx["Notes"]]) if x) or None,

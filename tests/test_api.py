@@ -35,11 +35,35 @@ def push_id(client):
     return next(r["id"] for r in client.get("/api/routines").json() if r["name"] == "Push")
 
 
-def test_routines_seeded(client):
+def test_plan_seeded(client):
     routines = client.get("/api/routines").json()
     assert [r["name"] for r in routines] == [
-        "Push", "Pull", "Legs", "Upper Body", "Shoulders + Arms", "Legs + Core"]
-    assert routines[0]["exercises"][0]["name"] == "Incline Dumbbell Press"
+        "Push", "Pull", "Legs", "Upper Body", "Shoulders + Arms", "Legs + Core", "Full Body"]
+    assert [r["kind"] for r in routines].count("backup") == 1
+
+    push = routines[0]["exercises"]
+    main_ = [e for e in push if e["section"] == "main"]
+    finisher = [e for e in push if e["section"] == "finisher"]
+    assert main_[0] == {**main_[0], "name": "Incline Dumbbell Press", "sets": 3, "target": "8-12",
+                        "kind": "compound"}
+    assert [e["name"] for e in finisher] == ["Farmer Walk", "Floor Crunch", "Superman", "Side Heel Touch"]
+    assert finisher[0]["unit"] == "seconds"
+
+    upper = next(r for r in routines if r["name"] == "Upper Body")
+    assert upper["exercises"][0]["name"] == "Flat Dumbbell Press"
+    # every day ends with the same finisher
+    assert all(r["exercises"][-1]["name"] == "Side Heel Touch" for r in routines)
+
+
+def test_bodyweight_and_timed_sets(client):
+    rid = push_id(client)
+    w = client.put("/api/workouts", json={"date": "2026-11-23", "routine_id": rid, "exercises": [
+        {"name": "Farmer Walk", "sets": [{"weight": 20, "reps": 45}]},
+        {"name": "Superman", "sets": [{"weight": 0, "reps": 15}]},
+    ]}).json()
+    by_name = {e["name"]: e for e in w["exercises"]}
+    assert by_name["Farmer Walk"]["unit"] == "seconds"
+    assert by_name["Superman"]["sets"][0] == {"set_number": 1, "weight": 0, "reps": 15, "note": None}
 
 
 def test_save_find_update_delete(client):
@@ -83,3 +107,14 @@ def test_validation(client):
     r = client.put("/api/workouts", json={"date": "2026-11-23", "routine_id": rid, "exercises": [
         {"name": "Shoulder Press", "sets": [{"weight": 10, "reps": 0}]}]})
     assert r.status_code == 422
+
+
+def test_list_workouts_by_date(client):
+    rid = push_id(client)
+    for date in ["2026-11-20", "2026-11-23"]:
+        client.put("/api/workouts", json={"date": date, "routine_id": rid, "exercises": [
+            {"name": "Shoulder Press", "sets": [{"weight": 10, "reps": 10}]}]})
+    found = client.get("/api/workouts", params={"date": "2026-11-23"}).json()
+    assert [w["date"] for w in found] == ["2026-11-23"]
+    assert found[0]["routine_id"] == rid
+    assert client.get("/api/workouts", params={"date": "2026-11-21"}).json() == []

@@ -3,8 +3,10 @@ A small application to track my training sessions while providing useful stats o
 
 ## Prototype
 
-- **Log** tab: pick a date and the day of the split (Push, Pull, Legs, …). The routine's exercises are pre-filled with last time's sets shown in grey. Enter weight and reps, add or remove sets and exercises, then save. Saving the same date and routine again updates that workout.
+- **Log** tab: choose what you're hitting (Day 1–6 of the split, or the Full Body backup; the next day in the rotation is marked "next up"). Each exercise shows its planned sets × reps, whether it's compound (C) or isolation (I), and last time's sets in grey. The finisher follows the main exercises. Enter weight and reps (seconds for carries), add or remove sets and exercises, then save. Saving the same date and routine again updates that workout.
 - **History** tab: all past workouts. Tap one to see its sets, edit it or delete it.
+
+The training plan lives in [docs/workout_plan.md](docs/workout_plan.md), and the app seeds its routines from [app/plan.py](app/plan.py).
 
 Stack: FastAPI + SQLAlchemy, with SQLite (`data/workouts.db`) by default. Set `DATABASE_URL` to use Postgres. The front end is plain HTML/JS in `app/static/`.
 

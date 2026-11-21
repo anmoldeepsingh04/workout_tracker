@@ -12,14 +12,18 @@ class Exercise(Base):
     name: Mapped[str] = mapped_column(String(100), unique=True)
     muscle_group: Mapped[str | None] = mapped_column(String(30))
     equipment: Mapped[str | None] = mapped_column(String(30))
+    kind: Mapped[str | None] = mapped_column(String(20))  # compound / isolation
+    unit: Mapped[str] = mapped_column(String(10), default="reps")  # reps / seconds
 
 
 class Routine(Base):
-    """A training day of the split, e.g. Monday = Push."""
+    """A training day of the plan, e.g. Day 1 = Push. Done in order, not tied to a weekday."""
     __tablename__ = "routines"
     id: Mapped[int] = mapped_column(primary_key=True)
-    day_of_week: Mapped[int] = mapped_column(Integer, unique=True)  # 0 = Monday
-    name: Mapped[str] = mapped_column(String(50))
+    position: Mapped[int] = mapped_column(Integer)
+    name: Mapped[str] = mapped_column(String(50), unique=True)
+    focus: Mapped[str | None] = mapped_column(String(100))
+    kind: Mapped[str] = mapped_column(String(20), default="split")  # split / backup
     items: Mapped[list["RoutineExercise"]] = relationship(
         order_by="RoutineExercise.position", cascade="all, delete-orphan")
 
@@ -30,6 +34,10 @@ class RoutineExercise(Base):
     routine_id: Mapped[int] = mapped_column(ForeignKey("routines.id", ondelete="CASCADE"))
     exercise_id: Mapped[int] = mapped_column(ForeignKey("exercises.id"))
     position: Mapped[int] = mapped_column(Integer)
+    sets: Mapped[int | None] = mapped_column(Integer)
+    target: Mapped[str | None] = mapped_column(String(20))  # e.g. "8-12", "max", "~45 s"
+    note: Mapped[str | None] = mapped_column(String(200))
+    section: Mapped[str] = mapped_column(String(20), default="main")  # main / finisher
     exercise: Mapped[Exercise] = relationship(lazy="joined")
 
 

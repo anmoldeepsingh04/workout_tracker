@@ -1,8 +1,10 @@
 "use strict";
 
-const DAY_SHORT = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 const state = {
   routines: [],
+  exercises: [],
+  finisherNote: "",
+  nextUpId: null,
   routineId: null,
   dirty: false,
 };
@@ -29,17 +31,17 @@ function isoToday() {
   return new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
 }
 
-function weekdayIndex(iso) {           // 0 = Monday
-  const d = new Date(iso + "T12:00:00");
-  return (d.getDay() + 6) % 7;
-}
-
 function fmtDate(iso, opts = { weekday: "short", day: "numeric", month: "short" }) {
   return new Date(iso + "T12:00:00").toLocaleDateString(undefined, opts);
 }
 
 const fmtNum = (n) => (Number.isInteger(n) ? String(n) : String(+n.toFixed(2)));
-const fmtSets = (sets) => sets.map((s) => `${fmtNum(s.weight)}×${s.reps}`).join(" · ");
+function fmtSet(s, unit = "reps") {
+  const amount = unit === "seconds" ? `${s.reps}s` : String(s.reps);
+  return s.weight ? `${fmtNum(s.weight)}×${amount}` : amount;
+}
+const fmtSets = (sets, unit) => sets.map((s) => fmtSet(s, unit)).join(" · ");
+const fmtTarget = (t) => (t ?? "").replace("-", "–");
 
 async function api(path, options = {}) {
   const res = await fetch(path, {
@@ -73,32 +75,57 @@ function confirmDiscard() {
 }
 
 // ------------------------------------------------------------------ log view
-function renderDays() {
-  const box = $("#days");
-  box.replaceChildren(
-    ...state.routines.map((r) =>
-      el("button", {
-        class: "day" + (r.id === state.routineId ? " active" : ""),
-        type: "button",
-        onclick: () => {
-          if (r.id === state.routineId || !confirmDiscard()) return;
-          state.routineId = r.id;
-          loadLog();
-        },
-      }, el("small", {}, DAY_SHORT[r.day_of_week]), r.name)
-    )
-  );
+function routineLabel(r) {
+  const prefix = r.kind === "split" ? `Day ${r.position} · ` : "";
+  const next = r.id === state.nextUpId ? "  (next up)" : "";
+  return `${prefix}${r.name}${r.focus ? ` — ${r.focus}` : ""}${next}`;
 }
 
-function setRow(tbody, values = {}, placeholder = {}) {
+function renderRoutineSelect() {
+  const option = (r) => el("option", { value: r.id }, routineLabel(r));
+  const split = state.routines.filter((r) => r.kind === "split");
+  const backup = state.routines.filter((r) => r.kind !== "split");
+  $("#routine").replaceChildren(
+    el("option", { value: "" }, "Select a workout…"),
+    el("optgroup", { label: "Split (do in order)" }, ...split.map(option)),
+    backup.length ? el("optgroup", { label: "Backup" }, ...backup.map(option)) : null,
+  );
+  syncRoutineSelect();
+}
+
+// Next split day after the most recent split workout (rotation, not weekday).
+async function computeNextUp() {
+  const split = state.routines.filter((r) => r.kind === "split");
+  const recent = await api("/api/workouts?limit=30");
+  const lastSplit = recent.find((w) => split.some((r) => r.id === w.routine_id));
+  if (!lastSplit) { state.nextUpId = split[0]?.id ?? null; return; }
+  const i = split.findIndex((r) => r.id === lastSplit.routine_id);
+  state.nextUpId = split[(i + 1) % split.length].id;
+}
+
+function syncRoutineSelect() {
+  const sel = $("#routine");
+  sel.value = state.routineId ?? "";
+  sel.classList.toggle("unset", state.routineId === null);
+}
+
+// If a workout is already saved for this date, select its routine.
+async function routineSavedOn(date) {
+  const saved = await api(`/api/workouts?${new URLSearchParams({ date })}`);
+  return saved.length ? saved[0].routine_id : null;
+}
+
+function setRow(tbody, values = {}, placeholder = {}, opts = {}) {
   const n = tbody.children.length + 1;
+  const weightPh = placeholder.weight ? fmtNum(placeholder.weight) : (opts.bodyweight ? "BW" : "kg");
   const weight = el("input", {
     type: "number", inputmode: "decimal", step: "any", min: "0",
-    placeholder: placeholder.weight ?? "kg", "aria-label": `Set ${n} weight`,
+    placeholder: weightPh, "aria-label": `Set ${n} weight`,
   });
   const reps = el("input", {
     type: "number", inputmode: "numeric", step: "1", min: "1",
-    placeholder: placeholder.reps ?? "reps", "aria-label": `Set ${n} reps`,
+    placeholder: placeholder.reps ?? opts.repsHint ?? (opts.seconds ? "sec" : "reps"),
+    "aria-label": `Set ${n} ${opts.seconds ? "seconds" : "reps"}`,
   });
   if (values.weight !== undefined) weight.value = fmtNum(values.weight);
   if (values.reps !== undefined) reps.value = values.reps;
@@ -119,27 +146,42 @@ function renumber(tbody) {
   [...tbody.children].forEach((tr, i) => { tr.firstChild.textContent = i + 1; });
 }
 
-function exerciseCard({ name, muscle_group }, saved, last) {
+function exerciseCard(ex, saved, last) {
+  const { name, muscle_group, kind, unit, equipment, sets, target, note } = ex;
+  const seconds = unit === "seconds";
+  const bodyweight = equipment === "Bodyweight";
+  const repsHint = target && /^\d/.test(target) && !seconds ? fmtTarget(target) : null;
+  const opts = { seconds, bodyweight, repsHint };
+
   const tbody = el("tbody");
   const lastSets = last?.sets ?? [];
   const placeholderFor = (i) => lastSets[i] ?? lastSets[lastSets.length - 1] ?? {};
+  const addRow = (vals, i) => setRow(tbody, vals, placeholderFor(i), opts);
 
   if (saved?.length) {
-    saved.forEach((s, i) => setRow(tbody, s, placeholderFor(i)));
+    saved.forEach((s, i) => addRow(s, i));
   } else {
-    const n = Math.max(lastSets.length, 3);
-    for (let i = 0; i < n; i++) setRow(tbody, {}, placeholderFor(i));
+    const n = sets ?? Math.max(lastSets.length, 3);
+    for (let i = 0; i < n; i++) addRow({}, i);
   }
 
   const copyLast = () => {
     tbody.replaceChildren();
-    lastSets.forEach((s, i) => setRow(tbody, s, placeholderFor(i)));
+    lastSets.forEach((s, i) => addRow(s, i));
     state.dirty = true;
   };
 
-  const card = el("div", { class: "card exercise", "data-name": name },
+  const planBits = [
+    sets && target ? `${sets} × ${fmtTarget(target)}` : null,
+    kind ? kind[0].toUpperCase() + kind.slice(1) : null,
+  ].filter(Boolean);
+
+  const card = el("div", {
+    class: "card exercise", "data-name": name, "data-bw": bodyweight ? "1" : "",
+  },
     el("div", { class: "card-head" },
       el("h2", {}, name),
+      kind ? el("span", { class: `kind ${kind}`, title: kind }, kind === "compound" ? "C" : "I") : null,
       muscle_group ? el("span", { class: "tag" }, muscle_group) : null,
       el("button", {
         class: "icon-btn", type: "button", title: "Remove exercise from this workout",
@@ -147,21 +189,28 @@ function exerciseCard({ name, muscle_group }, saved, last) {
         onclick: () => { card.remove(); state.dirty = true; },
       }, "×"),
     ),
+    planBits.length || note
+      ? el("div", { class: "plan" },
+          planBits.length ? el("strong", {}, planBits.join(" · ")) : null,
+          note ? el("span", {}, note) : null)
+      : null,
     last
       ? el("div", { class: "last" },
-          el("span", {}, `Last (${fmtDate(last.date, { day: "numeric", month: "short" })}): ${fmtSets(lastSets)}`),
+          el("span", {}, `Last (${fmtDate(last.date, { day: "numeric", month: "short" })}): ${fmtSets(lastSets, unit)}`),
           el("button", { class: "btn link", type: "button", onclick: copyLast }, "Copy"))
       : el("div", { class: "last" }, el("span", {}, "No previous sets")),
     el("table", { class: "sets" },
-      el("thead", {}, el("tr", {}, el("th"), el("th", {}, "Weight (kg)"), el("th", {}, "Reps"), el("th"))),
+      el("thead", {}, el("tr", {}, el("th"),
+        el("th", {}, bodyweight ? "Weight (kg, blank = BW)" : seconds ? "Weight (kg/hand)" : "Weight (kg)"),
+        el("th", {}, seconds ? "Seconds" : "Reps"), el("th"))),
       tbody),
     el("button", {
       class: "btn link add-set", type: "button",
       onclick: () => {
         const prev = tbody.lastElementChild?.querySelectorAll("input");
-        const vals = prev && prev[0].value && prev[1].value
-          ? { weight: +prev[0].value, reps: +prev[1].value } : {};
-        const row = setRow(tbody, vals, placeholderFor(tbody.children.length));
+        const vals = prev && prev[1].value
+          ? { weight: prev[0].value === "" ? undefined : +prev[0].value, reps: +prev[1].value } : {};
+        const row = addRow(vals, tbody.children.length);
         row.querySelector("input").focus();
         state.dirty = true;
       },
@@ -171,8 +220,14 @@ function exerciseCard({ name, muscle_group }, saved, last) {
   return card;
 }
 
+function finisherHeader() {
+  return el("div", { class: "section-head" },
+    el("h3", {}, "Finisher"),
+    state.finisherNote ? el("p", {}, state.finisherNote) : null);
+}
+
 async function loadLog() {
-  renderDays();
+  syncRoutineSelect();
   const date = $("#date").value;
   const box = $("#exercises");
   const status = $("#status");
@@ -180,7 +235,7 @@ async function loadLog() {
 
   const routine = state.routines.find((r) => r.id === state.routineId);
   if (!routine) {
-    box.replaceChildren(el("p", { class: "empty" }, "Rest day? Pick a routine above to log a workout."));
+    box.replaceChildren(el("p", { class: "empty" }, "Choose what you\u2019re hitting today to load its exercises."));
     status.textContent = "";
     $("#notes").value = "";
     state.dirty = false;
@@ -191,25 +246,36 @@ async function loadLog() {
   const params = new URLSearchParams({ date, routine_id: routine.id });
   const saved = await api(`/api/workouts/find?${params}`);
 
-  // exercises: what was saved for this day (if any) + the routine's template
+  // exercises: what was saved for this day, or the routine's plan. Plan info (sets x reps,
+  // notes, finisher section) is attached to saved exercises too.
+  const planByName = new Map(routine.exercises.map((e) => [e.name.toLowerCase(), e]));
+  const catalog = new Map(state.exercises.map((e) => [e.name.toLowerCase(), e]));
+  const source = saved ? saved.exercises : routine.exercises;
   const list = [];
   const seen = new Set();
-  const push = (e) => {
+  for (const e of source) {
     const key = e.name.toLowerCase();
-    if (!seen.has(key)) { seen.add(key); list.push(e); }
-  };
-  (saved?.exercises ?? []).forEach(push);
-  if (!saved) routine.exercises.forEach(push);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    list.push({ ...catalog.get(key), ...planByName.get(key), ...e, sets: saved ? undefined : e.sets,
+                savedSets: saved ? e.sets : null, section: planByName.get(key)?.section ?? "main" });
+  }
+  list.sort((a, b) => (a.section === "finisher") - (b.section === "finisher"));
 
   const lastParams = new URLSearchParams({ before: date });
   list.forEach((e) => lastParams.append("names", e.name));
   const last = list.length ? await api(`/api/last?${lastParams}`) : {};
 
-  box.replaceChildren(...list.map((e) => exerciseCard(e, e.sets, last[e.name])));
+  const cards = [];
+  list.forEach((e, i) => {
+    if (e.section === "finisher" && list[i - 1]?.section !== "finisher") cards.push(finisherHeader());
+    cards.push(exerciseCard(e, e.savedSets, last[e.name]));
+  });
+  box.replaceChildren(...cards);
   $("#notes").value = saved?.notes ?? "";
   status.textContent = saved
     ? `Saved workout for ${fmtDate(date)} — edit and save again to update it.`
-    : `New ${routine.name} workout for ${fmtDate(date)}. Grey numbers are last time's sets.`;
+    : `New ${routine.name} workout for ${fmtDate(date)}. Grey numbers are last time's sets; C = compound, I = isolation.`;
   if (saved) status.classList.add("saved");
   state.dirty = false;
 }
@@ -228,8 +294,10 @@ async function addExercise() {
   const last = await api(`/api/last?${params}`);
   const ex = known ?? { name, muscle_group: null };
   const card = exerciseCard(ex, null, last[ex.name]);
-  if (!$("#exercises .exercise")) $("#exercises").replaceChildren();
-  $("#exercises").append(card);
+  const box = $("#exercises");
+  if (!box.querySelector(".exercise")) box.replaceChildren();
+  const finisher = box.querySelector(".section-head");
+  if (finisher) box.insertBefore(card, finisher); else box.append(card);
   input.value = "";
   state.dirty = true;
   card.querySelector("input").focus();
@@ -245,9 +313,10 @@ function collect() {
       w.classList.remove("invalid");
       r.classList.remove("invalid");
       if (!w.value && !r.value) return;              // untouched row
-      const weight = parseFloat(w.value);
+      const bw = card.dataset.bw === "1";
+      const weight = w.value === "" && bw ? 0 : parseFloat(w.value);
       const reps = parseInt(r.value, 10);
-      const wOk = w.value !== "" && weight >= 0;
+      const wOk = (w.value !== "" || bw) && weight >= 0;
       const rOk = r.value !== "" && reps >= 1;
       if (!wOk) w.classList.add("invalid");
       if (!rOk) r.classList.add("invalid");
@@ -279,6 +348,8 @@ async function save() {
     const sets = exercises.reduce((n, e) => n + e.sets.length, 0);
     toast(`Saved ✓ ${exercises.length} exercises, ${sets} sets`);
     state.dirty = false;
+    await computeNextUp();
+    renderRoutineSelect();
     await loadLog();
   } catch (err) {
     toast(err.message, true);
@@ -316,7 +387,7 @@ function historyCard(w) {
       const full = await api(`/api/workouts/${w.id}`);
       detail.append(
         ...full.exercises.map((e) =>
-          el("div", { class: "h-ex" }, el("b", {}, e.name), el("span", {}, fmtSets(e.sets)))),
+          el("div", { class: "h-ex" }, el("b", {}, e.name), el("span", {}, fmtSets(e.sets, e.unit)))),
         full.notes ? el("p", { class: "h-meta" }, full.notes) : null,
         el("div", { class: "h-actions" },
           el("button", { class: "btn secondary", type: "button", onclick: () => editWorkout(w) }, "Edit"),
@@ -356,25 +427,37 @@ function showView(name) {
   if (name === "history") loadHistory().catch((e) => toast(e.message, true));
 }
 
-function routineForDate(iso) {
-  return state.routines.find((r) => r.day_of_week === weekdayIndex(iso))?.id ?? null;
-}
-
 async function init() {
-  [state.routines, state.exercises] = await Promise.all([api("/api/routines"), api("/api/exercises")]);
+  let plan;
+  [state.routines, state.exercises, plan] = await Promise.all(
+    [api("/api/routines"), api("/api/exercises"), api("/api/plan")]);
+  state.finisherNote = plan.finisher_note;
   $("#exercise-list").replaceChildren(...state.exercises.map((e) => el("option", { value: e.name })));
+
+  await computeNextUp();
+  renderRoutineSelect();
 
   const dateInput = $("#date");
   dateInput.value = isoToday();
   let lastDate = dateInput.value;
-  state.routineId = routineForDate(dateInput.value);
+  state.routineId = await routineSavedOn(dateInput.value);
 
-  dateInput.addEventListener("change", () => {
+  $("#routine").addEventListener("change", (e) => {
+    const id = e.target.value ? Number(e.target.value) : null;
+    if (id === state.routineId) return;
+    if (!confirmDiscard()) { syncRoutineSelect(); return; }
+    state.routineId = id;
+    loadLog().catch((err) => toast(err.message, true));
+  });
+
+  dateInput.addEventListener("change", async () => {
     if (!dateInput.value) { dateInput.value = lastDate; return; }
     if (!confirmDiscard()) { dateInput.value = lastDate; return; }
     lastDate = dateInput.value;
-    state.routineId = routineForDate(dateInput.value) ?? state.routineId;
-    loadLog().catch((e) => toast(e.message, true));
+    try {
+      state.routineId = (await routineSavedOn(dateInput.value)) ?? state.routineId;
+      await loadLog();
+    } catch (e) { toast(e.message, true); }
   });
   document.querySelectorAll(".tab").forEach((t) =>
     t.addEventListener("click", () => showView(t.dataset.view)));
