@@ -1,0 +1,19 @@
+# Render Blueprint: free web service. The database is hosted on Neon (free Postgres).
+services:
+  - type: web
+    name: workout-tracker
+    runtime: python
+    plan: free
+    region: frankfurt
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --proxy-headers --forwarded-allow-ips="*"
+    healthCheckPath: /healthz
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.1
+      - key: DATABASE_URL      # Neon connection string, entered in the Render dashboard
+        sync: false
+      - key: APP_PASSWORD      # the password you log in with, entered in the Render dashboard
+        sync: false
+      - key: SECRET_KEY        # signs the login cookie
+        generateValue: true

@@ -48,6 +48,10 @@ async function api(path, options = {}) {
     headers: { "Content-Type": "application/json" },
     ...options,
   });
+  if (res.status === 401) {
+    location.href = "/login";
+    throw new Error("Logged out");
+  }
   if (!res.ok) {
     let msg = `Request failed (${res.status})`;
     try {

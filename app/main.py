@@ -1,28 +1,22 @@
 import datetime as dt
 from contextlib import asynccontextmanager
-from pathlib import Path
 
 from fastapi import Depends, FastAPI, HTTPException, Query
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from sqlalchemy import select
 from sqlalchemy.orm import Session
+from starlette.middleware.sessions import SessionMiddleware
 
-from . import models  # noqa: F401  (register tables)
-from .db import Base, SessionLocal, engine, get_db
+from . import auth
+from .db import get_db
 from .models import Exercise, Routine, Workout, WorkoutSet
 from .plan import FINISHER_NOTE
 from .schemas import (ExerciseEntryOut, ExerciseOut, LastPerformance, RoutineItemOut, RoutineOut,
                       SetOut, WorkoutIn, WorkoutOut, WorkoutSummary)
-from .seed import get_or_create_exercise, seed
+from .seed import get_or_create_exercise, init_db
 
-STATIC = Path(__file__).resolve().parent / "static"
-
-
-def init_db(bind=engine, session_factory=SessionLocal):
-    Base.metadata.create_all(bind)
-    with session_factory() as db:
-        seed(db)
+STATIC = auth.STATIC
 
 
 @asynccontextmanager
@@ -32,6 +26,16 @@ async def lifespan(_app):
 
 
 app = FastAPI(title="Workout Tracker", lifespan=lifespan)
+app.middleware("http")(auth.require_login)
+# added last so it runs first: the login check needs the session
+app.add_middleware(SessionMiddleware, secret_key=auth.SECRET_KEY, max_age=auth.SESSION_MAX_AGE,
+                   same_site="lax", https_only=auth.COOKIE_SECURE)
+app.include_router(auth.router)
+
+
+@app.get("/healthz", include_in_schema=False)
+def healthz():
+    return {"ok": True}
 
 
 # ---------------------------------------------------------------- helpers

@@ -21,6 +21,21 @@ python3 -m venv .venv
 
 Tests: `.venv/bin/python -m pytest`
 
+## Deploy (free: Render + Neon)
+
+The app runs on a free [Render](https://render.com) web service (config in `render.yaml`), and the data is kept in a free [Neon](https://neon.com) Postgres database. Hosted, the app needs a password (`APP_PASSWORD`).
+
+1. **Neon:** create a project (region: Frankfurt) and copy its connection string with connection pooling **off**.
+2. **Load history** into it, once, from this folder:
+   ```bash
+   DATABASE_URL='postgresql://…neon.tech/neondb?sslmode=require' .venv/bin/python scripts/import_history.py
+   ```
+3. **Push** the code to GitHub.
+4. **Render:** New → Blueprint → pick this repo. Enter `DATABASE_URL` (the Neon string) and `APP_PASSWORD` (the password you'll log in with). `SECRET_KEY` is generated for you.
+5. Open the `onrender.com` link on your phone, log in, and use "Add to Home Screen".
+
+The free Render service sleeps after 15 minutes without visits, so the first visit after a break takes about a minute to load.
+
 ## Data
 
 Workouts are logged through the web interface and stored in `data/workouts.db`, which is the file to back up.

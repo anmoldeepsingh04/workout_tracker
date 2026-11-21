@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f3864">
+  <title>Log in · Workout Tracker</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="login-page">
+  <form class="card login-card" method="post" action="/login">
+    <h1>Workout Tracker</h1>
+    <label class="field">
+      <span>Password</span>
+      <input type="password" name="password" autocomplete="current-password" required autofocus>
+    </label>
+    <p class="login-error" id="error" hidden>Wrong password. Try again.</p>
+    <button class="btn primary" type="submit">Log in</button>
+  </form>
+  <script>
+    if (new URLSearchParams(location.search).has("error")) document.getElementById("error").hidden = false;
+  </script>
+</body>
+</html>

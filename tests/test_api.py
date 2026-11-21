@@ -14,9 +14,8 @@ def client(monkeypatch):
                            poolclass=StaticPool)
     factory = sessionmaker(bind=engine, autoflush=False, expire_on_commit=False)
     monkeypatch.setattr(main, "init_db", lambda: None)
-    main.Base.metadata.create_all(engine)
-    with factory() as db:
-        main.seed(db)
+    from app.seed import init_db
+    init_db(engine, factory)
 
     def override():
         db = factory()
@@ -118,3 +117,23 @@ def test_list_workouts_by_date(client):
     assert [w["date"] for w in found] == ["2026-11-23"]
     assert found[0]["routine_id"] == rid
     assert client.get("/api/workouts", params={"date": "2026-11-21"}).json() == []
+
+
+def test_login_required_when_password_set(client, monkeypatch):
+    from app import auth
+    monkeypatch.setattr(auth, "PASSWORD", "s3cret")
+    assert client.get("/healthz").status_code == 200
+    assert client.get("/api/routines").status_code == 401
+    r = client.get("/", follow_redirects=False)
+    assert r.status_code == 303 and r.headers["location"] == "/login"
+
+    r = client.post("/login", data={"password": "wrong"}, follow_redirects=False)
+    assert r.headers["location"] == "/login?error=1"
+    assert client.get("/api/routines").status_code == 401
+
+    r = client.post("/login", data={"password": "s3cret"}, follow_redirects=False)
+    assert r.headers["location"] == "/"
+    assert client.get("/api/routines").status_code == 200
+
+    client.post("/logout")
+    assert client.get("/api/routines").status_code == 401

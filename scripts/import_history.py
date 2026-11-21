@@ -16,9 +16,8 @@ from sqlalchemy import select
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from app.db import SessionLocal  # noqa: E402
-from app.main import init_db  # noqa: E402
 from app.models import Routine, Workout, WorkoutSet  # noqa: E402
-from app.seed import get_or_create_exercise  # noqa: E402
+from app.seed import get_or_create_exercise, init_db  # noqa: E402
 
 
 def plan_name(exercise, variant):

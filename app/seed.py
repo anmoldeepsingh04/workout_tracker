@@ -2,8 +2,17 @@
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
+from . import models  # noqa: F401  (register tables)
+from .db import Base, SessionLocal, engine
 from .models import Exercise, Routine, RoutineExercise
 from .plan import EXERCISES, FINISHER, ROUTINES
+
+
+def init_db(bind=engine, session_factory=SessionLocal) -> None:
+    """Create missing tables and seed the plan into an empty database."""
+    Base.metadata.create_all(bind)
+    with session_factory() as db:
+        seed(db)
 
 
 def get_or_create_exercise(db: Session, name: str) -> Exercise:
