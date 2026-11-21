@@ -137,3 +137,28 @@ def test_login_required_when_password_set(client, monkeypatch):
 
     client.post("/logout")
     assert client.get("/api/routines").status_code == 401
+
+
+def test_backup_round_trip(client):
+    from app.backup import export_data, import_data, is_empty
+    rid = push_id(client)
+    client.put("/api/workouts", json={"date": "2026-11-23", "routine_id": rid, "notes": "good day",
+               "exercises": [{"name": "Shoulder Press", "sets": [{"weight": 15, "reps": 10}]},
+                             {"name": "Farmer Walk", "sets": [{"weight": 20, "reps": 45}]}]})
+    data = client.get("/api/export/json").json()
+    assert data["format"] == "workout-tracker-backup"
+    assert data["workouts"][0]["notes"] == "good day"
+    csv_text = client.get("/api/export/csv").text
+    assert csv_text.splitlines()[0].startswith("date,routine,exercise")
+    assert "2026-11-23,Push,Farmer Walk,Full body,1,20.0,45,seconds," in csv_text
+
+    engine = create_engine("sqlite://", connect_args={"check_same_thread": False}, poolclass=StaticPool)
+    from app.db import Base
+    Base.metadata.create_all(engine)
+    with sessionmaker(bind=engine)() as db:
+        assert is_empty(db)
+        counts = import_data(db, data)
+        assert counts["workouts"] == 1 and counts["sets"] == 2
+        assert export_data(db) == data  # restored database exports identically
+        with pytest.raises(ValueError):
+            import_data(db, data)  # refuses to restore over existing data

@@ -1,7 +1,6 @@
 .venv/
 __pycache__/
-~$*.xlsx
-data/workouts.db
-.DS_Store
-data/workouts.db.bak-*
 .pytest_cache/
+.DS_Store
+data/workouts.db
+backups/

@@ -2,13 +2,14 @@ import datetime as dt
 from contextlib import asynccontextmanager
 
 from fastapi import Depends, FastAPI, HTTPException, Query
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, JSONResponse, Response
 from fastapi.staticfiles import StaticFiles
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 from starlette.middleware.sessions import SessionMiddleware
 
 from . import auth
+from .backup import export_data, sets_csv
 from .db import get_db
 from .models import Exercise, Routine, Workout, WorkoutSet
 from .plan import FINISHER_NOTE
@@ -175,6 +176,20 @@ def delete_workout(workout_id: int, db: Session = Depends(get_db)):
         raise HTTPException(404, "Workout not found")
     db.delete(w)
     db.commit()
+
+
+@app.get("/api/export/{fmt}", include_in_schema=False)
+def export(fmt: str, db: Session = Depends(get_db)):
+    """Download a full backup: workouts.json (restorable) or sets.csv (spreadsheet)."""
+    stamp = dt.date.today().isoformat()
+    data = export_data(db)
+    if fmt == "json":
+        return JSONResponse(data, headers={
+            "Content-Disposition": f'attachment; filename="workouts-{stamp}.json"'})
+    if fmt == "csv":
+        return Response(sets_csv(data), media_type="text/csv", headers={
+            "Content-Disposition": f'attachment; filename="sets-{stamp}.csv"'})
+    raise HTTPException(404, "Use json or csv")
 
 
 # ---------------------------------------------------------------- front end

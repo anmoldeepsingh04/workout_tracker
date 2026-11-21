@@ -1,0 +1,54 @@
+# Copies the hosted database to the `backups` branch of this repo every 3 hours (and on demand).
+# Needs the repository secret DATABASE_URL (the Neon connection string).
+# Keep this repository PRIVATE: the backup contains all your workout data.
+name: Backup data
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: backup
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: pip install "sqlalchemy>=2.0" "psycopg[binary]>=3.2"
+
+      - name: Export database
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          test -n "$DATABASE_URL" || { echo "::error::Add the DATABASE_URL repository secret"; exit 1; }
+          python scripts/backup.py "$RUNNER_TEMP/backup"
+
+      - name: Commit to the backups branch
+        run: |
+          git config user.name "workout-backup-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git fetch --depth=1 origin backups; then
+            git worktree add "$RUNNER_TEMP/branch" FETCH_HEAD
+            cd "$RUNNER_TEMP/branch" && git checkout -B backups
+          else
+            git worktree add --detach "$RUNNER_TEMP/branch"
+            cd "$RUNNER_TEMP/branch" && git checkout --orphan backups && git rm -rfq .
+          fi
+          cp "$RUNNER_TEMP/backup/"* .
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes since the last backup"
+            exit 0
+          fi
+          git commit -m "Backup $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push origin backups

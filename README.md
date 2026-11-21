@@ -15,7 +15,6 @@ Stack: FastAPI + SQLAlchemy, with SQLite (`data/workouts.db`) by default. Set `D
 ```bash
 python3 -m venv .venv
 .venv/bin/pip install -r requirements-dev.txt
-.venv/bin/python scripts/import_history.py      # first run only: load past workouts (safe to re-run)
 .venv/bin/uvicorn app.main:app --reload         # http://127.0.0.1:8000
 ```
 
@@ -25,26 +24,43 @@ Tests: `.venv/bin/python -m pytest`
 
 The app runs on a free [Render](https://render.com) web service (config in `render.yaml`), and the data is kept in a free [Neon](https://neon.com) Postgres database. Hosted, the app needs a password (`APP_PASSWORD`).
 
-1. **Neon:** create a project (region: Frankfurt) and copy its connection string with connection pooling **off**.
-2. **Load history** into it, once, from this folder:
+1. **Make this GitHub repo private.** Backups of your data are stored in it.
+2. **Neon:** create a project (region: Frankfurt) and copy its connection string with connection pooling **off**.
+3. **Copy your data into Neon**, once, from this folder:
    ```bash
-   DATABASE_URL='postgresql://…neon.tech/neondb?sslmode=require' .venv/bin/python scripts/import_history.py
+   .venv/bin/python scripts/backup.py                     # local database -> backups/
+   DATABASE_URL='postgresql://…neon.tech/neondb?sslmode=require' \
+     .venv/bin/python scripts/restore.py backups/workouts.json
    ```
-3. **Push** the code to GitHub.
-4. **Render:** New → Blueprint → pick this repo. Enter `DATABASE_URL` (the Neon string) and `APP_PASSWORD` (the password you'll log in with). `SECRET_KEY` is generated for you.
-5. Open the `onrender.com` link on your phone, log in, and use "Add to Home Screen".
+4. **GitHub:** Settings → Secrets and variables → Actions → New repository secret `DATABASE_URL` (the Neon string). This turns on the automatic backups.
+5. **Push** the code to GitHub.
+6. **Render:** New → Blueprint → pick this repo. Enter `DATABASE_URL` (the Neon string) and `APP_PASSWORD` (the password you'll log in with). `SECRET_KEY` is generated for you.
+7. Open the `onrender.com` link on your phone, log in, and use "Add to Home Screen".
 
 The free Render service sleeps after 15 minutes without visits, so the first visit after a break takes about a minute to load.
 
-## Data
+## Backups
 
-Workouts are logged through the web interface and stored in `data/workouts.db`, which is the file to back up.
+Your data never depends on a single provider:
+
+- **Automatic:** every 3 hours, [.github/workflows/backup.yml](.github/workflows/backup.yml) exports the Neon database to the `backups` branch of this repo: `workouts.json` (everything) and `sets.csv` (opens in Excel). A commit is only made when something changed, so the branch history is a dated record of every change. To run it right away: GitHub → Actions → "Backup data" → Run workflow.
+- **From the app:** History tab → "Full backup (JSON)" or "Sets (CSV for Excel)".
+- **Manually:** `DATABASE_URL=… .venv/bin/python scripts/backup.py [folder]` (default folder: `backups/`, ignored by git).
+
+**Restoring** into any empty database (a new Neon project, another Postgres host, or the local SQLite file):
+
+```bash
+DATABASE_URL='<new database>' .venv/bin/python scripts/restore.py workouts.json   # --replace to overwrite
+```
+
+Leave out `DATABASE_URL` to restore into the local file `data/workouts.db`. The backup is plain JSON that refers to exercises and routines by name, so it's readable without this app.
+
+## Data
 
 | File | What it is |
 |---|---|
-| `data/workouts.db` | The database with all logged workouts (not committed to git) |
-| `data/workout_history.xlsx` | Workouts from Sep to Nov 2026, from before the app existed |
-| `scripts/import_history.py` | Loads `workout_history.xlsx` into a database. Needed once when setting up a new database (e.g. when deploying), then both files can be deleted |
+| `data/workouts.db` | Local database (not committed to git). Once deployed, the live data is in Neon |
+| `scripts/backup.py`, `scripts/restore.py` | Export a database to `workouts.json` + `sets.csv`, and load a backup into a database |
 
 ## API
 
@@ -59,3 +75,4 @@ Workouts are logged through the web interface and stored in `data/workouts.db`, 
 | GET | `/api/workouts/{id}` | Full workout |
 | PUT | `/api/workouts` | Create or replace the workout for a date + routine |
 | DELETE | `/api/workouts/{id}` | Delete a workout |
+| GET | `/api/export/json`, `/api/export/csv` | Download a full backup |

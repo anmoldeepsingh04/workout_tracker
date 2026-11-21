@@ -159,3 +159,6 @@ main { max-width: 640px; margin: 0 auto; padding: 16px 12px 110px; }
 .login-error { margin: 0; color: var(--danger); font-size: 0.85rem; }
 .logout { position: absolute; right: 12px; top: calc(10px + env(safe-area-inset-top)); }
 .logout button { background: none; border: 0; color: #c9d5ea; font: inherit; font-size: 0.8rem; cursor: pointer; padding: 4px 6px; }
+
+.downloads { text-align: center; font-size: 0.85rem; color: var(--muted); margin: 18px 0; }
+.downloads a { color: var(--accent); font-weight: 600; }
