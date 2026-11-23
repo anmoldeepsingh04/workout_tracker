@@ -7,301 +7,344 @@
    "muscle_group": "Legs",
    "equipment": "Barbell",
    "kind": "compound",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Bulgarian Split Squat",
    "muscle_group": "Legs",
    "equipment": "Dumbbell",
    "kind": "compound",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Cable Fly (Lower Chest)",
    "muscle_group": "Chest",
    "equipment": "Cable",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Cable Fly (Mid Chest)",
    "muscle_group": "Chest",
    "equipment": "Cable",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Cable Lateral Raise",
    "muscle_group": "Shoulders",
    "equipment": "Cable",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Calf Raise",
    "muscle_group": "Legs",
    "equipment": "Machine",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Chest-supported T-bar Row",
    "muscle_group": "Back",
    "equipment": "Machine",
    "kind": "compound",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Dead Bug",
    "muscle_group": "Core",
    "equipment": "Bodyweight",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Dumbbell Curl",
    "muscle_group": "Biceps",
    "equipment": "Dumbbell",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Dumbbell Squat",
    "muscle_group": "Legs",
    "equipment": "Dumbbell",
    "kind": "compound",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Farmer Walk",
    "muscle_group": "Full body",
    "equipment": "Dumbbell",
    "kind": "compound",
-   "unit": "seconds"
+   "unit": "seconds",
+   "setup": null
   },
   {
    "name": "Flat Dumbbell Press",
    "muscle_group": "Chest",
    "equipment": "Dumbbell",
    "kind": "compound",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Floor Crunch",
    "muscle_group": "Core",
    "equipment": "Bodyweight",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Hack Squat",
    "muscle_group": "Legs",
    "equipment": "Machine",
    "kind": "compound",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Hammer Curl",
    "muscle_group": "Biceps",
    "equipment": "Dumbbell",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Hanging Leg Raise",
    "muscle_group": "Core",
    "equipment": "Bodyweight",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "High-to-Low Cable Fly",
    "muscle_group": "Chest",
    "equipment": "Cable",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Hip Thrust",
    "muscle_group": "Legs",
    "equipment": "Barbell",
    "kind": "compound",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Incline Chest Press",
    "muscle_group": "Chest",
    "equipment": "Dumbbell",
    "kind": "compound",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Incline Dumbbell Curl",
    "muscle_group": "Biceps",
    "equipment": "Dumbbell",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Incline Dumbbell Press",
    "muscle_group": "Chest",
    "equipment": "Dumbbell",
    "kind": "compound",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": "Bench 30°"
   },
   {
    "name": "Lat Pulldown",
    "muscle_group": "Back",
    "equipment": "Machine",
    "kind": "compound",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Leg Curl",
    "muscle_group": "Legs",
    "equipment": "Machine",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Leg Extension",
    "muscle_group": "Legs",
    "equipment": "Machine",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Leg Press",
    "muscle_group": "Legs",
    "equipment": "Machine",
    "kind": "compound",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Low-to-High Cable Fly",
    "muscle_group": "Chest",
    "equipment": "Cable",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Machine Chest Press",
    "muscle_group": "Chest",
    "equipment": "Machine",
    "kind": "compound",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": "Seat at 4"
   },
   {
    "name": "Overhead Cable Triceps Extension",
    "muscle_group": "Triceps",
    "equipment": "Cable",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": "Pin at 18"
   },
   {
    "name": "Plank",
    "muscle_group": "Core",
    "equipment": "Bodyweight",
    "kind": "isolation",
-   "unit": "seconds"
+   "unit": "seconds",
+   "setup": null
   },
   {
    "name": "Preacher Curl",
    "muscle_group": "Biceps",
    "equipment": "Dumbbell",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Rear Delt Fly",
    "muscle_group": "Shoulders",
    "equipment": "Machine",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Reverse Pec Deck",
    "muscle_group": "Shoulders",
    "equipment": "Machine",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Romanian Deadlift",
    "muscle_group": "Legs",
    "equipment": "Dumbbell",
    "kind": "compound",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Seated Cable Row",
    "muscle_group": "Back",
    "equipment": "Cable",
    "kind": "compound",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Shoulder Press",
    "muscle_group": "Shoulders",
    "equipment": "Dumbbell",
    "kind": "compound",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Side Heel Touch",
    "muscle_group": "Core",
    "equipment": "Bodyweight",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Single-arm Cable Lat Pulldown",
    "muscle_group": "Back",
    "equipment": "Cable",
    "kind": "compound",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Single-arm Preacher Curl",
    "muscle_group": "Biceps",
    "equipment": "Dumbbell",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Straight-arm Cable Pullover",
    "muscle_group": "Back",
    "equipment": "Cable",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Suitcase Carry",
    "muscle_group": "Core",
    "equipment": "Dumbbell",
    "kind": "compound",
-   "unit": "seconds"
+   "unit": "seconds",
+   "setup": null
   },
   {
    "name": "Superman",
    "muscle_group": "Core",
    "equipment": "Bodyweight",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Supported Dumbbell Curl",
    "muscle_group": "Biceps",
    "equipment": "Dumbbell",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": null
   },
   {
    "name": "Triceps Pushdown",
    "muscle_group": "Triceps",
    "equipment": "Cable",
    "kind": "isolation",
-   "unit": "reps"
+   "unit": "reps",
+   "setup": "Do it with a rope and keep your shoulders back and chest kinda out"
   }
  ],
  "routines": [
@@ -315,7 +358,7 @@
      "exercise": "Incline Dumbbell Press",
      "sets": 3,
      "target": "8-12",
-     "note": null,
+     "note": "Bench at about 30° (15-30° is fine). Steeper shifts the work to the front delts",
      "section": "main"
     },
     {
@@ -811,7 +854,7 @@
      "exercise": "Incline Dumbbell Press",
      "sets": 3,
      "target": "8-12",
-     "note": null,
+     "note": "Bench at about 30° (15-30° is fine). Steeper shifts the work to the front delts",
      "section": "main"
     },
     {
@@ -845,7 +888,7 @@
     {
      "exercise": "Triceps Pushdown",
      "sets": 2,
-     "target": "10-15",
+     "target": "10-12",
      "note": null,
      "section": "main"
     },
@@ -6845,6 +6888,238 @@
      "set_number": 3,
      "weight": 50.0,
      "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "routine": "Push",
+   "notes": null,
+   "created_at": "2026-11-23T14:56:32",
+   "sets": [
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 1,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Incline Dumbbell Press",
+     "position": 0,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Machine Chest Press",
+     "position": 1,
+     "set_number": 1,
+     "weight": 25.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Machine Chest Press",
+     "position": 1,
+     "set_number": 2,
+     "weight": 35.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Machine Chest Press",
+     "position": 1,
+     "set_number": 3,
+     "weight": 25.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 2,
+     "set_number": 1,
+     "weight": 12.5,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 2,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Shoulder Press",
+     "position": 2,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 3,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 3,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Low-to-High Cable Fly",
+     "position": 3,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 4,
+     "set_number": 1,
+     "weight": 2.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 4,
+     "set_number": 2,
+     "weight": 2.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 4,
+     "set_number": 3,
+     "weight": 2.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 5,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 5,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Triceps Pushdown",
+     "position": 5,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 6,
+     "set_number": 1,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 6,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Overhead Cable Triceps Extension",
+     "position": 6,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Farmer Walk",
+     "position": 7,
+     "set_number": 1,
+     "weight": 20.0,
+     "reps": 60,
+     "note": null
+    },
+    {
+     "exercise": "Farmer Walk",
+     "position": 7,
+     "set_number": 2,
+     "weight": 20.0,
+     "reps": 60,
+     "note": null
+    },
+    {
+     "exercise": "Farmer Walk",
+     "position": 7,
+     "set_number": 3,
+     "weight": 20.0,
+     "reps": 60,
+     "note": null
+    },
+    {
+     "exercise": "Floor Crunch",
+     "position": 8,
+     "set_number": 1,
+     "weight": 0.0,
+     "reps": 20,
+     "note": null
+    },
+    {
+     "exercise": "Superman",
+     "position": 9,
+     "set_number": 1,
+     "weight": 0.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Side Heel Touch",
+     "position": 10,
+     "set_number": 1,
+     "weight": 0.0,
+     "reps": 20,
+     "note": null
+    },
+    {
+     "exercise": "Side Heel Touch",
+     "position": 10,
+     "set_number": 2,
+     "weight": 0.0,
+     "reps": 20,
      "note": null
     }
    ]
