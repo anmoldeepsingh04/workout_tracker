@@ -150,6 +150,64 @@ function renumber(tbody) {
   [...tbody.children].forEach((tr, i) => { tr.firstChild.textContent = i + 1; });
 }
 
+// Machine settings (seat pin, bench angle, ...) are stored per exercise and saved immediately.
+function setupLine(name) {
+  const known = () => state.exercises.find((e) => e.name.toLowerCase() === name.toLowerCase());
+  if (!known()) return null; // new exercise: no id until the workout is saved
+  const box = el("div", { class: "setup" });
+
+  const show = () => {
+    const setup = known().setup;
+    box.replaceChildren(
+      el("button", {
+        class: `setup-view${setup ? "" : " empty"}`, type: "button",
+        title: "Machine settings, kept for next time", onclick: edit,
+      },
+        el("span", { class: "setup-icon", "aria-hidden": "true" }, "⚙"),
+        el("span", {}, setup || "Add machine settings")),
+    );
+  };
+
+  const edit = () => {
+    const input = el("input", {
+      type: "text", maxlength: "300", value: known().setup ?? "",
+      placeholder: "e.g. Bench 30°, seat pin 4, foot rest M",
+      "aria-label": `Machine settings for ${name}`,
+    });
+    const save = async () => {
+      const ex = known();
+      const value = input.value.trim();
+      if (value !== (ex.setup ?? "")) {
+        try {
+          const updated = await api(`/api/exercises/${ex.id}/setup`, {
+            method: "PUT", headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ setup: value }),
+          });
+          ex.setup = updated.setup;
+        } catch {
+          toast("Couldn't save the machine settings. Try again.", true);
+          return;
+        }
+      }
+      show();
+    };
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") { e.preventDefault(); save(); }
+      if (e.key === "Escape") show();
+    });
+    box.replaceChildren(
+      el("span", { class: "setup-icon", "aria-hidden": "true" }, "⚙"),
+      input,
+      el("button", { class: "btn secondary small", type: "button", onclick: save }, "Save"),
+      el("button", { class: "btn link", type: "button", onclick: show }, "Cancel"),
+    );
+    input.focus();
+  };
+
+  show();
+  return box;
+}
+
 function exerciseCard(ex, saved, last) {
   const { name, muscle_group, kind, unit, equipment, sets, target, note } = ex;
   const seconds = unit === "seconds";
@@ -198,6 +256,7 @@ function exerciseCard(ex, saved, last) {
           planBits.length ? el("strong", {}, planBits.join(" · ")) : null,
           note ? el("span", {}, note) : null)
       : null,
+    setupLine(name),
     last
       ? el("div", { class: "last" },
           el("span", {}, `Last (${fmtDate(last.date, { day: "numeric", month: "short" })}): ${fmtSets(lastSets, unit)}`),

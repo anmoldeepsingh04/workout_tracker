@@ -34,6 +34,30 @@ def push_id(client):
     return next(r["id"] for r in client.get("/api/routines").json() if r["name"] == "Push")
 
 
+def test_plan_sync_updates_existing_routines():
+    from sqlalchemy import create_engine, select
+    from sqlalchemy.orm import sessionmaker
+    from sqlalchemy.pool import StaticPool
+    from app.models import Routine
+    from app.seed import init_db
+
+    engine = create_engine("sqlite://", connect_args={"check_same_thread": False}, poolclass=StaticPool)
+    factory = sessionmaker(engine)
+    init_db(engine, factory)
+    with factory() as db:  # simulate a database seeded from an older plan
+        items = db.scalar(select(Routine).where(Routine.name == "Full Body")).items
+        next(i for i in items if i.exercise.name == "Triceps Pushdown").target = "10-15"
+        next(i for i in items if i.exercise.name == "Incline Dumbbell Press").note = None
+        db.commit()
+    init_db(engine, factory)
+    with factory() as db:
+        items = db.scalar(select(Routine).where(Routine.name == "Full Body")).items
+        pushdown = next(i for i in items if i.exercise.name == "Triceps Pushdown")
+        incline = next(i for i in items if i.exercise.name == "Incline Dumbbell Press")
+        assert pushdown.target == "10-12"
+        assert "30°" in incline.note
+
+
 def test_plan_seeded(client):
     routines = client.get("/api/routines").json()
     assert [r["name"] for r in routines] == [
@@ -142,12 +166,15 @@ def test_login_required_when_password_set(client, monkeypatch):
 def test_backup_round_trip(client):
     from app.backup import export_data, import_data, is_empty
     rid = push_id(client)
+    leg_curl = next(e for e in client.get("/api/exercises").json() if e["name"] == "Leg Curl")
+    client.put(f"/api/exercises/{leg_curl['id']}/setup", json={"setup": "Foot rest M, pin 3"})
     client.put("/api/workouts", json={"date": "2026-11-23", "routine_id": rid, "notes": "good day",
                "exercises": [{"name": "Shoulder Press", "sets": [{"weight": 15, "reps": 10}]},
                              {"name": "Farmer Walk", "sets": [{"weight": 20, "reps": 45}]}]})
     data = client.get("/api/export/json").json()
     assert data["format"] == "workout-tracker-backup"
     assert data["workouts"][0]["notes"] == "good day"
+    assert next(e for e in data["exercises"] if e["name"] == "Leg Curl")["setup"] == "Foot rest M, pin 3"
     csv_text = client.get("/api/export/csv").text
     assert csv_text.splitlines()[0].startswith("date,routine,exercise")
     assert "2026-11-23,Push,Farmer Walk,Full body,1,20.0,45,seconds," in csv_text
@@ -162,3 +189,30 @@ def test_backup_round_trip(client):
         assert export_data(db) == data  # restored database exports identically
         with pytest.raises(ValueError):
             import_data(db, data)  # refuses to restore over existing data
+
+
+def test_machine_setup(client):
+    ex = next(e for e in client.get("/api/exercises").json() if e["name"] == "Incline Dumbbell Press")
+    assert ex["setup"] is None
+    r = client.put(f"/api/exercises/{ex['id']}/setup", json={"setup": "  Bench   30°, notch 3 "})
+    assert r.status_code == 200 and r.json()["setup"] == "Bench 30°, notch 3"
+    # shows up wherever the exercise is planned
+    push = client.get("/api/routines").json()[0]
+    assert push["exercises"][0]["setup"] == "Bench 30°, notch 3"
+    # an empty value clears it
+    assert client.put(f"/api/exercises/{ex['id']}/setup", json={"setup": " "}).json()["setup"] is None
+    assert client.put("/api/exercises/99999/setup", json={"setup": "x"}).status_code == 404
+    assert client.put(f"/api/exercises/{ex['id']}/setup", json={"setup": "x" * 301}).status_code == 422
+
+
+def test_existing_database_gets_new_columns():
+    from sqlalchemy import inspect, text
+    from app.seed import init_db
+    engine = create_engine("sqlite://", connect_args={"check_same_thread": False}, poolclass=StaticPool)
+    factory = sessionmaker(bind=engine)
+    init_db(engine, factory)
+    with engine.begin() as conn:  # simulate a database created before the setup column existed
+        conn.execute(text("ALTER TABLE exercises DROP COLUMN setup"))
+    assert "setup" not in {c["name"] for c in inspect(engine).get_columns("exercises")}
+    init_db(engine, factory)
+    assert "setup" in {c["name"] for c in inspect(engine).get_columns("exercises")}

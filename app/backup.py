@@ -26,7 +26,7 @@ def export_data(db: Session) -> dict:
         "version": VERSION,
         "exercises": [
             {"name": e.name, "muscle_group": e.muscle_group, "equipment": e.equipment,
-             "kind": e.kind, "unit": e.unit}
+             "kind": e.kind, "unit": e.unit, "setup": e.setup}
             for e in exercises
         ],
         "routines": [
@@ -88,7 +88,7 @@ def import_data(db: Session, data: dict) -> dict:
     for e in data["exercises"]:
         exercises[e["name"]] = Exercise(name=e["name"], muscle_group=e["muscle_group"],
                                         equipment=e["equipment"], kind=e["kind"],
-                                        unit=e["unit"] or "reps")
+                                        unit=e["unit"] or "reps", setup=e.get("setup"))
     db.add_all(exercises.values())
 
     def exercise(name):  # tolerate sets/items naming an exercise missing from the list

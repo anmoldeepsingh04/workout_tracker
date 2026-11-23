@@ -104,7 +104,7 @@ This is where most of the extra value is. It turns the review we did in chat int
 | **Plan versions** ("Plan v1, frozen 21 Nov 2026"), kept when the plan changes | Progress can be compared across plan changes, and you can see what you were doing when | M |
 | **Swap an exercise on the spot**, e.g. when a machine is busy: a list of alternatives for each exercise, saved for that session only | Gym reality without breaking the plan | M |
 | **Exercise library**: rename, merge duplicates (e.g. Rear Delt Fly and Reverse Pec Deck are the same machine), hide old exercises | Cleaner data and charts | M |
-| **Machine notes**: seat height, pin position, grip, for each exercise | No more re-figuring settings every session. Very practical | S |
+| ~~**Machine notes**~~ **Done (23 Nov):** the ⚙ line on each exercise card | No more re-figuring settings every session | S |
 | **Weight steps for each exercise**: dumbbells in 2.5 kg steps, a cable stack's actual steps (e.g. 3.75 / 6.25 / 8.75), a kg/lb switch | The `−` / `+` buttons and progression hints use real, available weights | S |
 | **Form cues and video links** on each exercise card | Useful when starting new exercises (Romanian deadlift, hip thrust) | S |
 | **Warm-up sets**, marked as such | Logged, but kept out of the stats | S |

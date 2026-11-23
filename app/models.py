@@ -14,6 +14,7 @@ class Exercise(Base):
     equipment: Mapped[str | None] = mapped_column(String(30))
     kind: Mapped[str | None] = mapped_column(String(20))  # compound / isolation
     unit: Mapped[str] = mapped_column(String(10), default="reps")  # reps / seconds
+    setup: Mapped[str | None] = mapped_column(String(300))  # machine settings, e.g. "Seat pin 4"
 
 
 class Routine(Base):

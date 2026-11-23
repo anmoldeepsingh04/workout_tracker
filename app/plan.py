@@ -65,10 +65,12 @@ FINISHER = [
 ]
 FINISHER_NOTE = "Finish with 5 min stretching: cat-cow and full-body yoga stretch."
 
+INCLINE = "Bench at about 30° (15-30° is fine). Steeper shifts the work to the front delts"
+
 # (position, name, focus, kind, [(exercise, sets, target, note)])
 ROUTINES = [
     (1, "Push", "Chest priority", "split", [
-        ("Incline Dumbbell Press", 3, "8-12", None),
+        ("Incline Dumbbell Press", 3, "8-12", INCLINE),
         ("Machine Chest Press", 3, "8-12", None),
         ("Shoulder Press", 3, "8-12", None),
         ("Low-to-High Cable Fly", 3, "12-15", None),
@@ -120,11 +122,11 @@ ROUTINES = [
     (7, "Full Body", "Catch-up after missing 2+ days", "backup", [
         ("Barbell Squat", 3, "6-10", None),
         ("Romanian Deadlift", 2, "8-10", None),
-        ("Incline Dumbbell Press", 3, "8-12", None),
+        ("Incline Dumbbell Press", 3, "8-12", INCLINE),
         ("Lat Pulldown", 3, "8-12", None),
         ("Seated Cable Row", 2, "10-12", None),
         ("Cable Lateral Raise", 2, "12-20", None),
         ("Dumbbell Curl", 2, "10-12", "Alternate with triceps pushdown"),
-        ("Triceps Pushdown", 2, "10-15", None),
+        ("Triceps Pushdown", 2, "10-12", None),
     ]),
 ]

@@ -162,3 +162,19 @@ main { max-width: 640px; margin: 0 auto; padding: 16px 12px 110px; }
 
 .downloads { text-align: center; font-size: 0.85rem; color: var(--muted); margin: 18px 0; }
 .downloads a { color: var(--accent); font-weight: 600; }
+
+/* Machine settings line on exercise cards */
+.setup { display: flex; align-items: center; gap: 6px; margin-top: 6px; font-size: 0.8rem; }
+.setup-view {
+  display: inline-flex; align-items: center; gap: 6px; max-width: 100%;
+  font: inherit; text-align: left; cursor: pointer;
+  border: 1px solid var(--line); border-radius: 8px; background: var(--accent-soft);
+  color: var(--navy); padding: 4px 8px;
+}
+.setup-view.empty { background: none; border-style: dashed; color: var(--muted); }
+.setup-icon { flex: none; }
+.setup input {
+  flex: 1; min-width: 0; font: inherit; font-size: 16px; /* 16px stops iOS zooming in */
+  padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px;
+}
+.btn.small { padding: 6px 10px; font-size: 0.8rem; }

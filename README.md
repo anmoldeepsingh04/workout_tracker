@@ -4,6 +4,7 @@ A small application to track my training sessions while providing useful stats o
 ## Prototype
 
 - **Log** tab: choose what you're hitting (Day 1–6 of the split, or the Full Body backup; the next day in the rotation is marked "next up"). Each exercise shows its planned sets × reps, whether it's compound (C) or isolation (I), and last time's sets in grey. The finisher follows the main exercises. Enter weight and reps (seconds for carries), add or remove sets and exercises, then save. Saving the same date and routine again updates that workout.
+- **Machine settings** (⚙ on each exercise): bench angle, seat pin, foot rest and so on. Saved per exercise right away, and shown every time that exercise comes up.
 - **History** tab: all past workouts. Tap one to see its sets, edit it or delete it.
 
 The training plan lives in [docs/workout_plan.md](docs/workout_plan.md), and the app seeds its routines from [app/plan.py](app/plan.py).
@@ -69,6 +70,7 @@ Leave out `DATABASE_URL` to restore into the local file `data/workouts.db`. The 
 | GET | `/api/routines` | Split days with their exercises, planned sets × reps and finisher |
 | GET | `/api/plan` | Plan-wide info (finisher stretching note) |
 | GET | `/api/exercises` | Exercise catalogue |
+| PUT | `/api/exercises/{id}/setup` | Save an exercise's machine settings (`{"setup": "…"}`, empty clears) |
 | GET | `/api/last?names=…&before=YYYY-MM-DD` | Most recent sets per exercise |
 | GET | `/api/workouts` | Workout summaries (newest first) |
 | GET | `/api/workouts/find?date=…&routine_id=…` | Workout for a given day/routine |

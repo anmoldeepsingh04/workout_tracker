@@ -10,6 +10,11 @@ class ExerciseOut(BaseModel):
     equipment: str | None = None
     kind: str | None = None
     unit: str = "reps"
+    setup: str | None = None
+
+
+class SetupIn(BaseModel):
+    setup: str = Field(default="", max_length=300)
 
 
 class RoutineItemOut(ExerciseOut):

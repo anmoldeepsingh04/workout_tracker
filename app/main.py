@@ -14,7 +14,7 @@ from .db import get_db
 from .models import Exercise, Routine, Workout, WorkoutSet
 from .plan import FINISHER_NOTE
 from .schemas import (ExerciseEntryOut, ExerciseOut, LastPerformance, RoutineItemOut, RoutineOut,
-                      SetOut, WorkoutIn, WorkoutOut, WorkoutSummary)
+                      SetOut, SetupIn, WorkoutIn, WorkoutOut, WorkoutSummary)
 from .seed import get_or_create_exercise, init_db
 
 STATIC = auth.STATIC
@@ -70,7 +70,7 @@ def summary(w: Workout) -> WorkoutSummary:
 # ---------------------------------------------------------------- API
 def exercise_out(e: Exercise) -> dict:
     return dict(id=e.id, name=e.name, muscle_group=e.muscle_group, equipment=e.equipment,
-                kind=e.kind, unit=e.unit or "reps")
+                kind=e.kind, unit=e.unit or "reps", setup=e.setup)
 
 
 @app.get("/api/plan")
@@ -92,6 +92,16 @@ def list_routines(db: Session = Depends(get_db)):
 def list_exercises(db: Session = Depends(get_db)):
     return [ExerciseOut(**exercise_out(e))
             for e in db.scalars(select(Exercise).order_by(Exercise.name))]
+
+
+@app.put("/api/exercises/{exercise_id}/setup", response_model=ExerciseOut)
+def save_setup(exercise_id: int, body: SetupIn, db: Session = Depends(get_db)):
+    ex = db.get(Exercise, exercise_id)
+    if ex is None:
+        raise HTTPException(404, "Exercise not found")
+    ex.setup = " ".join(body.setup.split()) or None
+    db.commit()
+    return ExerciseOut(**exercise_out(ex))
 
 
 @app.get("/api/last", response_model=dict[str, LastPerformance])

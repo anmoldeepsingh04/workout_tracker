@@ -13,13 +13,14 @@ The app seeds its routines from [`app/plan.py`](../app/plan.py). Keep that file 
 - **Effort:** finish each set with 1–2 reps left in the tank.
 - **Progression:** once every set reaches the top of the rep range, add the smallest weight step next time.
 - **Same machine every time:** stack numbers differ between machines.
+- **Incline bench at about 30°** (15–30° is fine) for incline presses. Steeper than about 45° turns it into a shoulder press.
 - **Easier week every 6–8 weeks:** same exercises and weights, about half the sets, shorter finisher.
 
 ## Day 1: Push (chest priority), 21 sets
 
 | # | Exercise | Type | Sets × Reps |
 |---|---|---|---|
-| 1 | Incline dumbbell press | C | 3 × 8–12 |
+| 1 | Incline dumbbell press (bench at ~30°) | C | 3 × 8–12 |
 | 2 | Machine chest press | C | 3 × 8–12 |
 | 3 | Shoulder press | C | 3 × 8–12 |
 | 4 | Low-to-high cable fly | I | 3 × 12–15 |
@@ -89,7 +90,7 @@ Optional: alternate triceps and biceps sets for exercises 4–7, resting 60 s af
 
 | # | Exercise | Type | Prescription |
 |---|---|---|---|
-| 1 | Farmer walk, 20 kg each hand (suitcase carry on 1–2 days a week, optional) | C | 5–6 rounds × ~45 s, ~60 s rest |
+| 1 | Farmer walk, 20 kg each hand (suitcase carry on 1–2 days a week, optional) | C | 5 rounds × ~45 s, ~60 s rest |
 | 2 | Floor crunch | I | 20 slow reps (3 s up, 3 s down). Hold a plate when easy |
 | 3 | Superman (face down) | I | 12–15 reps, 1–2 s hold at the top |
 | 4 | Side heel touches, or a 30–45 s plank / dead bugs on 2–3 days a week | I | 20 reps |
@@ -105,7 +106,7 @@ Use it as your first session back after missing **2+ days in a row**, then conti
 |---|---|---|---|
 | 1 | Barbell squat | C | 3 × 6–10 |
 | 2 | Romanian deadlift | C | 2 × 8–10 |
-| 3 | Incline dumbbell press | C | 3 × 8–12 |
+| 3 | Incline dumbbell press (bench at ~30°) | C | 3 × 8–12 |
 | 4 | Lat pulldown | C | 3 × 8–12 |
 | 5 | Seated cable row | C | 2 × 10–12 |
 | 6 | Cable lateral raise | I | 2 × 12–20 |
