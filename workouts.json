@@ -256,7 +256,7 @@
    "equipment": "Machine",
    "kind": "isolation",
    "unit": "reps",
-   "setup": null
+   "setup": "Seat at 5 (below 4)"
   },
   {
    "name": "Romanian Deadlift",
@@ -7120,6 +7120,182 @@
      "set_number": 2,
      "weight": 0.0,
      "reps": 20,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "routine": "Pull",
+   "notes": null,
+   "created_at": "2026-11-24T21:49:51",
+   "sets": [
+    {
+     "exercise": "Lat Pulldown",
+     "position": 0,
+     "set_number": 1,
+     "weight": 47.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 0,
+     "set_number": 2,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Lat Pulldown",
+     "position": 0,
+     "set_number": 3,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 1,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 2,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Chest-supported T-bar Row",
+     "position": 1,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 2,
+     "set_number": 1,
+     "weight": 21.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 2,
+     "set_number": 2,
+     "weight": 17.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 2,
+     "set_number": 3,
+     "weight": 17.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 1,
+     "weight": 17.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 2,
+     "weight": 17.5,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Straight-arm Cable Pullover",
+     "position": 3,
+     "set_number": 3,
+     "weight": 15.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 4,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 4,
+     "set_number": 2,
+     "weight": 10.0,
+     "reps": 8,
+     "note": null
+    },
+    {
+     "exercise": "Dumbbell Curl",
+     "position": 4,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 5,
+     "set_number": 1,
+     "weight": 10.0,
+     "reps": 5,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 5,
+     "set_number": 2,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Hammer Curl",
+     "position": 5,
+     "set_number": 3,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 6,
+     "set_number": 1,
+     "weight": 19.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 6,
+     "set_number": 2,
+     "weight": 19.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 6,
+     "set_number": 3,
+     "weight": 19.0,
+     "reps": 12,
      "note": null
     }
    ]
