@@ -184,7 +184,7 @@
    "equipment": "Machine",
    "kind": "isolation",
    "unit": "reps",
-   "setup": null
+   "setup": "Hinge on A and foot rest on L"
   },
   {
    "name": "Leg Extension",
@@ -192,7 +192,7 @@
    "equipment": "Machine",
    "kind": "isolation",
    "unit": "reps",
-   "setup": null
+   "setup": "Hinge on 12, Foot rest on XL, Seat 4"
   },
   {
    "name": "Leg Press",
@@ -7296,6 +7296,142 @@
      "set_number": 3,
      "weight": 19.0,
      "reps": 12,
+     "note": null
+    }
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "routine": "Legs",
+   "notes": null,
+   "created_at": "2026-11-25T17:35:26",
+   "sets": [
+    {
+     "exercise": "Barbell Squat",
+     "position": 0,
+     "set_number": 1,
+     "weight": 45.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Barbell Squat",
+     "position": 0,
+     "set_number": 2,
+     "weight": 45.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Barbell Squat",
+     "position": 0,
+     "set_number": 3,
+     "weight": 45.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 1,
+     "weight": 80.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 2,
+     "weight": 75.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Press",
+     "position": 1,
+     "set_number": 3,
+     "weight": 85.0,
+     "reps": 10,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 2,
+     "set_number": 1,
+     "weight": 65.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 2,
+     "set_number": 2,
+     "weight": 55.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Extension",
+     "position": 2,
+     "set_number": 3,
+     "weight": 55.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 3,
+     "set_number": 1,
+     "weight": 46.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 3,
+     "set_number": 2,
+     "weight": 32.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Leg Curl",
+     "position": 3,
+     "set_number": 3,
+     "weight": 39.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 4,
+     "set_number": 1,
+     "weight": 55.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 4,
+     "set_number": 2,
+     "weight": 55.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Calf Raise",
+     "position": 4,
+     "set_number": 3,
+     "weight": 55.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Farmer Walk",
+     "position": 5,
+     "set_number": 1,
+     "weight": 20.0,
+     "reps": 130,
      "note": null
     }
    ]
