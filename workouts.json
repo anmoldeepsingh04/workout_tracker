@@ -7435,6 +7435,190 @@
      "note": null
     }
    ]
+  },
+  {
+   "date": "2026-11-26",
+   "routine": "Upper Body",
+   "notes": null,
+   "created_at": "2026-11-26T21:54:36",
+   "sets": [
+    {
+     "exercise": "Flat Dumbbell Press",
+     "position": 0,
+     "set_number": 1,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Flat Dumbbell Press",
+     "position": 0,
+     "set_number": 2,
+     "weight": 12.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Flat Dumbbell Press",
+     "position": 0,
+     "set_number": 3,
+     "weight": 10.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Seated Cable Row",
+     "position": 1,
+     "set_number": 1,
+     "weight": 47.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Seated Cable Row",
+     "position": 1,
+     "set_number": 2,
+     "weight": 47.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Seated Cable Row",
+     "position": 1,
+     "set_number": 3,
+     "weight": 40.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 2,
+     "set_number": 1,
+     "weight": 21.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 2,
+     "set_number": 2,
+     "weight": 17.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Single-arm Cable Lat Pulldown",
+     "position": 2,
+     "set_number": 3,
+     "weight": 17.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "High-to-Low Cable Fly",
+     "position": 3,
+     "set_number": 1,
+     "weight": 7.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "High-to-Low Cable Fly",
+     "position": 3,
+     "set_number": 2,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "High-to-Low Cable Fly",
+     "position": 3,
+     "set_number": 3,
+     "weight": 5.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 4,
+     "set_number": 1,
+     "weight": 2.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 4,
+     "set_number": 2,
+     "weight": 2.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Cable Lateral Raise",
+     "position": 4,
+     "set_number": 3,
+     "weight": 2.5,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 5,
+     "set_number": 1,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Reverse Pec Deck",
+     "position": 5,
+     "set_number": 2,
+     "weight": 26.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Farmer Walk",
+     "position": 6,
+     "set_number": 1,
+     "weight": 20.0,
+     "reps": 60,
+     "note": null
+    },
+    {
+     "exercise": "Farmer Walk",
+     "position": 6,
+     "set_number": 2,
+     "weight": 20.0,
+     "reps": 60,
+     "note": null
+    },
+    {
+     "exercise": "Floor Crunch",
+     "position": 7,
+     "set_number": 1,
+     "weight": 0.0,
+     "reps": 20,
+     "note": null
+    },
+    {
+     "exercise": "Superman",
+     "position": 8,
+     "set_number": 1,
+     "weight": 0.0,
+     "reps": 12,
+     "note": null
+    },
+    {
+     "exercise": "Side Heel Touch",
+     "position": 9,
+     "set_number": 1,
+     "weight": 0.0,
+     "reps": 30,
+     "note": null
+    }
+   ]
   }
  ]
 }
